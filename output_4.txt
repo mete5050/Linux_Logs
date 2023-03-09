@@ -1,5 +1,2657 @@
 /home/mete/
 ├── Belgeler
+├── Conky
+│   ├── 4 & 2 core blue
+│   │   ├── clock01_rings.lua
+│   │   ├── conkyrc
+│   │   ├── conkyrc2core
+│   │   ├── conkyrc2core.png
+│   │   ├── conkyrc.png
+│   │   ├── fonts
+│   │   │   ├── AvantGarde_LT_Medium.ttf
+│   │   │   └── Radio_Space.ttf
+│   │   ├── weather
+│   │   └── weather_raw
+│   ├── Astro_Nerd_Conky
+│   │   ├── astro_cover.jpg
+│   │   ├── astro_rc
+│   │   ├── Cron_Commands
+│   │   ├── Cron_Reports
+│   │   ├── Data Info.pdf
+│   │   ├── font
+│   │   │   └── Ubuntu.ttf
+│   │   ├── north_moon
+│   │   │   ├── moon_day_first.png
+│   │   │   ├── moon_day_full.png
+│   │   │   ├── moon_day_last.png
+│   │   │   ├── moon_day_new.png
+│   │   │   ├── moon_day_WanC_0.png
+│   │   │   ├── moon_day_WanC_10.png
+│   │   │   ├── moon_day_WanC_15.png
+│   │   │   ├── moon_day_WanC_20.png
+│   │   │   ├── moon_day_WanC_25.png
+│   │   │   ├── moon_day_WanC_30.png
+│   │   │   ├── moon_day_WanC_35.png
+│   │   │   ├── moon_day_WanC_40.png
+│   │   │   ├── moon_day_WanC_45.png
+│   │   │   ├── moon_day_WanC_5.png
+│   │   │   ├── moon_day_WanG_50.png
+│   │   │   ├── moon_day_WanG_55.png
+│   │   │   ├── moon_day_WanG_60.png
+│   │   │   ├── moon_day_WanG_65.png
+│   │   │   ├── moon_day_WanG_70.png
+│   │   │   ├── moon_day_WanG_75.png
+│   │   │   ├── moon_day_WanG_80.png
+│   │   │   ├── moon_day_WanG_85.png
+│   │   │   ├── moon_day_WanG_90.png
+│   │   │   ├── moon_day_WanG_95.png
+│   │   │   ├── moon_day_WaxC_0.png
+│   │   │   ├── moon_day_WaxC_10.png
+│   │   │   ├── moon_day_WaxC_15.png
+│   │   │   ├── moon_day_WaxC_20.png
+│   │   │   ├── moon_day_WaxC_25.png
+│   │   │   ├── moon_day_WaxC_30.png
+│   │   │   ├── moon_day_WaxC_35.png
+│   │   │   ├── moon_day_WaxC_40.png
+│   │   │   ├── moon_day_WaxC_45.png
+│   │   │   ├── moon_day_WaxC_5.png
+│   │   │   ├── moon_day_WaxG_50.png
+│   │   │   ├── moon_day_WaxG_55.png
+│   │   │   ├── moon_day_WaxG_60.png
+│   │   │   ├── moon_day_WaxG_65.png
+│   │   │   ├── moon_day_WaxG_70.png
+│   │   │   ├── moon_day_WaxG_75.png
+│   │   │   ├── moon_day_WaxG_80.png
+│   │   │   ├── moon_day_WaxG_85.png
+│   │   │   ├── moon_day_WaxG_90.png
+│   │   │   └── moon_day_WaxG_95.png
+│   │   ├── scripts
+│   │   │   ├── asteroid_moon.sh
+│   │   │   ├── bargraph.lua
+│   │   │   ├── images.sh
+│   │   │   └── sun.sh
+│   │   ├── SET_UP GUIDE-read_me.pdf
+│   │   ├── south_moon
+│   │   │   ├── moon_day_first.png
+│   │   │   ├── moon_day_full.png
+│   │   │   ├── moon_day_last.png
+│   │   │   ├── moon_day_new.png
+│   │   │   ├── moon_day_WanC_0.png
+│   │   │   ├── moon_day_WanC_10.png
+│   │   │   ├── moon_day_WanC_15.png
+│   │   │   ├── moon_day_WanC_20.png
+│   │   │   ├── moon_day_WanC_25.png
+│   │   │   ├── moon_day_WanC_30.png
+│   │   │   ├── moon_day_WanC_35.png
+│   │   │   ├── moon_day_WanC_40.png
+│   │   │   ├── moon_day_WanC_45.png
+│   │   │   ├── moon_day_WanC_5.png
+│   │   │   ├── moon_day_WanG_50.png
+│   │   │   ├── moon_day_WanG_55.png
+│   │   │   ├── moon_day_WanG_60.png
+│   │   │   ├── moon_day_WanG_65.png
+│   │   │   ├── moon_day_WanG_70.png
+│   │   │   ├── moon_day_WanG_75.png
+│   │   │   ├── moon_day_WanG_80.png
+│   │   │   ├── moon_day_WanG_85.png
+│   │   │   ├── moon_day_WanG_90.png
+│   │   │   ├── moon_day_WanG_95.png
+│   │   │   ├── moon_day_WaxC_0.png
+│   │   │   ├── moon_day_WaxC_10.png
+│   │   │   ├── moon_day_WaxC_15.png
+│   │   │   ├── moon_day_WaxC_20.png
+│   │   │   ├── moon_day_WaxC_25.png
+│   │   │   ├── moon_day_WaxC_30.png
+│   │   │   ├── moon_day_WaxC_35.png
+│   │   │   ├── moon_day_WaxC_40.png
+│   │   │   ├── moon_day_WaxC_45.png
+│   │   │   ├── moon_day_WaxC_5.png
+│   │   │   ├── moon_day_WaxG_50.png
+│   │   │   ├── moon_day_WaxG_55.png
+│   │   │   ├── moon_day_WaxG_60.png
+│   │   │   ├── moon_day_WaxG_65.png
+│   │   │   ├── moon_day_WaxG_70.png
+│   │   │   ├── moon_day_WaxG_75.png
+│   │   │   ├── moon_day_WaxG_80.png
+│   │   │   ├── moon_day_WaxG_85.png
+│   │   │   ├── moon_day_WaxG_90.png
+│   │   │   ├── moon_day_WaxG_95.png
+│   │   │   ├── Thumbs.db
+│   │   │   └── Thumbs.db:encryptable
+│   │   └── tmp
+│   │       ├── ast_data
+│   │       ├── current.jpg
+│   │       ├── current_moon.png
+│   │       ├── f_304_211_171_512.jpg
+│   │       ├── latest_512_0131.jpg
+│   │       ├── latest_512_0335.jpg
+│   │       ├── moon_data
+│   │       └── sun_data
+│   ├── AutomatiK
+│   │   ├── 01.py
+│   │   ├── 02.py
+│   │   ├── 03.py
+│   │   ├── allcombined.lua
+│   │   ├── amd.py
+│   │   ├── amd.pyc
+│   │   ├── AutomatiK.png
+│   │   ├── clock01.py
+│   │   ├── clockfile01
+│   │   ├── clock.lua
+│   │   ├── cpu01.py
+│   │   ├── cpu01.py~
+│   │   ├── default
+│   │   ├── detect_screen.sh
+│   │   ├── disk01.py
+│   │   ├── file
+│   │   ├── fonts
+│   │   │   ├── good times rg.ttf
+│   │   │   ├── LiquidCrystal-Normal.otf
+│   │   │   ├── monof55.ttf
+│   │   │   ├── Rounded_Elegance.ttf
+│   │   │   ├── Sansation_Bold.ttf
+│   │   │   ├── Ubuntu-Title.ttf
+│   │   │   └── WIFI.ttf
+│   │   ├── graphiccard01.py
+│   │   ├── header.py
+│   │   ├── info01.py
+│   │   ├── intel_HD.py
+│   │   ├── intel_HD.pyc
+│   │   ├── kitty.py
+│   │   ├── mem01.py
+│   │   ├── net01.py
+│   │   ├── nvidiaOptions.txt
+│   │   ├── nvidia.py
+│   │   ├── nvidia.pyc
+│   │   ├── nvidia_test.py
+│   │   ├── poll_day.py
+│   │   ├── poll_disk.py
+│   │   ├── README
+│   │   ├── Readme.txt
+│   │   ├── res.html
+│   │   ├── rssfile
+│   │   ├── start.sh
+│   │   ├── start.sh~
+│   │   ├── top01.py
+│   │   ├── translations.py
+│   │   ├── translations.pyc
+│   │   └── vgacard.py
+│   ├── Bioshock2
+│   │   ├── Bioshock2.cmtheme
+│   │   ├── Bioshock2.png
+│   │   ├── credits.txt
+│   │   ├── Hermoso_Rc
+│   │   ├── Hermoso_Rc.jpg
+│   │   ├── source.txt
+│   │   └── wallpaper.jpg
+│   ├── Blue stats
+│   │   ├── bar_blue
+│   │   ├── bar_blue.png
+│   │   ├── bar_white
+│   │   ├── bar_white.png
+│   │   ├── fonts
+│   │   │   └── PF_Tempesta_Five_Condensed.ttf
+│   │   ├── relojbarconkyb.png
+│   │   └── relojbarconky.png
+│   ├── Computer Love
+│   │   ├── Computer Love - Green.cmtheme
+│   │   ├── Computer Love - Green.png
+│   │   ├── Computer Love - Red.cmtheme
+│   │   ├── Computer Love - Red.png
+│   │   ├── conkyrc
+│   │   ├── fonts
+│   │   │   ├── Roboto-Bold.ttf
+│   │   │   ├── Roboto-Light.ttf
+│   │   │   ├── Roboto-Medium.ttf
+│   │   │   └── Roboto-Regular.ttf
+│   │   ├── green
+│   │   ├── green.png
+│   │   ├── red
+│   │   ├── Red.jpg
+│   │   ├── red.png
+│   │   ├── Roboto-Bold.ttf
+│   │   ├── source.txt
+│   │   ├── unity 
+│   │   │   └── conkyrc
+│   │   ├── wallpaper-green.jpg
+│   │   └── wallpaper-red.jpg
+│   ├── Conky
+│   │   ├── 2018-12-31 19-06-07.mp4
+│   │   ├── battery_anim.rc
+│   │   ├── battery.rc
+│   │   ├── cpu_anim.rc
+│   │   ├── cpu_center.rc
+│   │   ├── cpu_left.rc
+│   │   ├── cpu.rc
+│   │   ├── cpu_right.rc
+│   │   ├── down_anim.rc
+│   │   ├── down.rc
+│   │   ├── font
+│   │   │   ├── conthrax-sb.ttf
+│   │   │   ├── Jovanny Lemonad - Bender-Bold.otf
+│   │   │   ├── Xolonium-Bold.otf
+│   │   │   ├── Xolonium-Bold.ttf
+│   │   │   ├── Xolonium-Regular.otf
+│   │   │   └── Xolonium-Regular.ttf
+│   │   ├── hdd_anim.rc
+│   │   ├── hdd.rc
+│   │   ├── images
+│   │   │   ├── avatar.png
+│   │   │   ├── battery
+│   │   │   │   ├── 00.png
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 14.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 16.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 18.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 20.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 22.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 24.png
+│   │   │   │   ├── 25.png
+│   │   │   │   ├── 26.png
+│   │   │   │   ├── 27.png
+│   │   │   │   ├── 28.png
+│   │   │   │   ├── 29.png
+│   │   │   │   ├── 30.png
+│   │   │   │   ├── 31.png
+│   │   │   │   ├── 32.png
+│   │   │   │   ├── 33.png
+│   │   │   │   ├── 34.png
+│   │   │   │   ├── 35.png
+│   │   │   │   ├── 36.png
+│   │   │   │   ├── 37.png
+│   │   │   │   ├── 38.png
+│   │   │   │   ├── 39.png
+│   │   │   │   ├── 40.png
+│   │   │   │   ├── 41.png
+│   │   │   │   ├── 42.png
+│   │   │   │   ├── 43.png
+│   │   │   │   ├── 44.png
+│   │   │   │   └── 45.png
+│   │   │   ├── battery.png
+│   │   │   ├── cpu
+│   │   │   │   ├── 00.png
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 14.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 16.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 18.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 20.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 22.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 24.png
+│   │   │   │   ├── 25.png
+│   │   │   │   ├── 26.png
+│   │   │   │   ├── 27.png
+│   │   │   │   ├── 28.png
+│   │   │   │   ├── 29.png
+│   │   │   │   ├── 30.png
+│   │   │   │   ├── 31.png
+│   │   │   │   ├── 32.png
+│   │   │   │   ├── 33.png
+│   │   │   │   ├── 34.png
+│   │   │   │   ├── 35.png
+│   │   │   │   ├── 36.png
+│   │   │   │   ├── 37.png
+│   │   │   │   ├── 38.png
+│   │   │   │   ├── 39.png
+│   │   │   │   ├── 40.png
+│   │   │   │   ├── 41.png
+│   │   │   │   ├── 42.png
+│   │   │   │   ├── 43.png
+│   │   │   │   ├── 44.png
+│   │   │   │   ├── 45.png
+│   │   │   │   ├── 46.png
+│   │   │   │   ├── 47.png
+│   │   │   │   ├── 48.png
+│   │   │   │   ├── 49.png
+│   │   │   │   ├── 50.png
+│   │   │   │   ├── 51.png
+│   │   │   │   ├── 52.png
+│   │   │   │   ├── 53.png
+│   │   │   │   ├── 54.png
+│   │   │   │   ├── 55.png
+│   │   │   │   ├── 56.png
+│   │   │   │   ├── 57.png
+│   │   │   │   ├── 58.png
+│   │   │   │   └── 59.png
+│   │   │   ├── cpu_center.png
+│   │   │   ├── cpu_left.png
+│   │   │   ├── cpu_right.png
+│   │   │   ├── down.png
+│   │   │   ├── hdd
+│   │   │   │   ├── 00.png
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   └── 11.png
+│   │   │   ├── hdd.png
+│   │   │   ├── info.png
+│   │   │   ├── mem
+│   │   │   │   ├── 00.png
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   └── 11.png
+│   │   │   ├── mem.png
+│   │   │   ├── net_down
+│   │   │   │   ├── 00.png
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   └── 13.png
+│   │   │   ├── net_up
+│   │   │   │   ├── 00.png
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   └── 13.png
+│   │   │   ├── p1.png
+│   │   │   ├── p2.png
+│   │   │   ├── process.png
+│   │   │   ├── up.png
+│   │   │   ├── weather_bg.png
+│   │   │   ├── weather_icon
+│   │   │   │   ├── 01d.png
+│   │   │   │   ├── 01n.png
+│   │   │   │   ├── 02d.png
+│   │   │   │   ├── 02n.png
+│   │   │   │   ├── 03d.png
+│   │   │   │   ├── 03n.png
+│   │   │   │   ├── 04d.png
+│   │   │   │   ├── 04n.png
+│   │   │   │   ├── 09d.png
+│   │   │   │   ├── 09n.png
+│   │   │   │   ├── 10d.png
+│   │   │   │   ├── 10n.png
+│   │   │   │   ├── 11d.png
+│   │   │   │   ├── 11n.png
+│   │   │   │   ├── 13d.png
+│   │   │   │   ├── 13n.png
+│   │   │   │   ├── 200.png
+│   │   │   │   ├── 201.png
+│   │   │   │   ├── 202.png
+│   │   │   │   ├── 210.png
+│   │   │   │   ├── 211.png
+│   │   │   │   ├── 212.png
+│   │   │   │   ├── 221.png
+│   │   │   │   ├── 230.png
+│   │   │   │   ├── 231.png
+│   │   │   │   ├── 232.png
+│   │   │   │   ├── 300.png
+│   │   │   │   ├── 301.png
+│   │   │   │   ├── 302.png
+│   │   │   │   ├── 310.png
+│   │   │   │   ├── 311.png
+│   │   │   │   ├── 312.png
+│   │   │   │   ├── 313.png
+│   │   │   │   ├── 314.png
+│   │   │   │   ├── 321.png
+│   │   │   │   ├── 500.png
+│   │   │   │   ├── 501.png
+│   │   │   │   ├── 502.png
+│   │   │   │   ├── 503.png
+│   │   │   │   ├── 504.png
+│   │   │   │   ├── 50d.png
+│   │   │   │   ├── 50n.png
+│   │   │   │   ├── 511.png
+│   │   │   │   ├── 520.png
+│   │   │   │   ├── 521.png
+│   │   │   │   ├── 522.png
+│   │   │   │   ├── 531.png
+│   │   │   │   ├── 600.png
+│   │   │   │   ├── 601.png
+│   │   │   │   ├── 602.png
+│   │   │   │   ├── 611.png
+│   │   │   │   ├── 612.png
+│   │   │   │   ├── 615.png
+│   │   │   │   ├── 616.png
+│   │   │   │   ├── 620.png
+│   │   │   │   ├── 621.png
+│   │   │   │   ├── 622.png
+│   │   │   │   ├── 701.png
+│   │   │   │   ├── 711.png
+│   │   │   │   ├── 721.png
+│   │   │   │   ├── 741.png
+│   │   │   │   ├── 751.png
+│   │   │   │   ├── 761.png
+│   │   │   │   ├── 800.png
+│   │   │   │   ├── 801.png
+│   │   │   │   ├── 802.png
+│   │   │   │   ├── 803.png
+│   │   │   │   ├── 804.png
+│   │   │   │   ├── 903.png
+│   │   │   │   ├── 904.png
+│   │   │   │   └── 905.png
+│   │   │   └── weather.png
+│   │   ├── info.rc
+│   │   ├── install.txt
+│   │   ├── lua
+│   │   │   ├── battery.lua
+│   │   │   ├── cpu_left.lua
+│   │   │   ├── cpu_right.lua
+│   │   │   ├── download.lua
+│   │   │   ├── draw-bk.lua
+│   │   │   ├── hdd.lua
+│   │   │   ├── mem.lua
+│   │   │   └── upload.lua
+│   │   ├── mem_anim.rc
+│   │   ├── mem.rc
+│   │   ├── process_anim.rc
+│   │   ├── process.rc
+│   │   ├── Screenshot_20181226_215131.png
+│   │   ├── up_anim.rc
+│   │   ├── up.rc
+│   │   ├── weather_anim.rc
+│   │   └── weather.rc
+│   ├── Conky_Hermoso
+│   │   ├── fonts
+│   │   │   ├── Expansiva.otf
+│   │   │   └── FEENC___.ttf
+│   │   ├── Hermoso_Rc
+│   │   ├── Hermoso_Rc.jpg
+│   │   └── source.txt
+│   ├── conky_light 4core_work
+│   │   ├── black
+│   │   ├── black.png
+│   │   ├── fonts
+│   │   │   ├── Michroma.ttf
+│   │   │   ├── Play-Bold.ttf
+│   │   │   └── Play-Regular.ttf
+│   │   ├── preview.png
+│   │   ├── rings-v1.3.1.lua
+│   │   ├── white
+│   │   └── white.png
+│   ├── Conky MIUI
+│   │   ├── b.png
+│   │   ├── c.png
+│   │   ├── fonts
+│   │   │   └── AvantGarde_LT_Medium.ttf
+│   │   ├── miui
+│   │   ├── miui.jpg
+│   │   ├── miui.png
+│   │   └── source.txt
+│   ├── conky_orange
+│   │   ├── conky_orange.lua
+│   │   ├── conkyrc_orange
+│   │   ├── tuto-params-lua.png
+│   │   └── tuto-params-lua.txt
+│   ├── ConkyPaintSplash
+│   │   ├── Blue
+│   │   ├── Blue.png
+│   │   ├── blue.png
+│   │   ├── fonts
+│   │   │   └── Ubuntu.ttf
+│   │   ├── Green
+│   │   ├── Green.png
+│   │   ├── green.png
+│   │   ├── Orange
+│   │   ├── Orange.png
+│   │   ├── orange.png
+│   │   ├── Pink
+│   │   ├── Pink.png
+│   │   ├── pink.png
+│   │   ├── Red
+│   │   ├── Red.png
+│   │   ├── red.png
+│   │   └── source.txt
+│   ├── Conky Seamod
+│   │   ├── conky_seamod
+│   │   ├── conky_seamod.jpg
+│   │   ├── conky_seamod.png
+│   │   ├── fonts
+│   │   │   └── Ubuntu.ttf
+│   │   ├── seamod_rings.lua
+│   │   └── source.txt
+│   ├── conky-spotify-master
+│   │   ├── background.png
+│   │   ├── conky-spotify
+│   │   ├── conky-spotify.cmtheme
+│   │   ├── conky-spotify-medium
+│   │   ├── conky-spotify-small
+│   │   ├── covers
+│   │   │   └── empty.txt
+│   │   ├── current
+│   │   │   ├── current.jpg
+│   │   │   └── current.txt
+│   │   ├── empty.jpg
+│   │   ├── fonts
+│   │   │   ├── ge-inspira.ttf
+│   │   │   ├── install.sh
+│   │   │   └── NotoSans-Regular.ttf
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   └── scripts
+│   │       ├── album.sh
+│   │       ├── artist.sh
+│   │       ├── cover.sh
+│   │       ├── id.sh
+│   │       ├── imgurl.sh
+│   │       ├── status.sh
+│   │       ├── title.sh
+│   │       └── year.sh
+│   ├── conky_start
+│   ├── conky_start-2
+│   ├── conky-startup.sh
+│   ├── ConkyWhite-AB
+│   │   ├── source.txt
+│   │   └── wab.png
+│   ├── ConkyWhiteTilesv2
+│   │   ├── conky_icons
+│   │   │   ├── 0.png
+│   │   │   ├── 10.png
+│   │   │   ├── 11.png
+│   │   │   ├── 12.png
+│   │   │   ├── 13.png
+│   │   │   ├── 14.png
+│   │   │   ├── 15.png
+│   │   │   ├── 16.png
+│   │   │   ├── 17.png
+│   │   │   ├── 18.png
+│   │   │   ├── 19.png
+│   │   │   ├── 1.png
+│   │   │   ├── 20.png
+│   │   │   ├── 21.png
+│   │   │   ├── 22.png
+│   │   │   ├── 23.png
+│   │   │   ├── 24.png
+│   │   │   ├── 25.png
+│   │   │   ├── 26.png
+│   │   │   ├── 27.png
+│   │   │   ├── 28.png
+│   │   │   ├── 29.png
+│   │   │   ├── 2.png
+│   │   │   ├── 30.png
+│   │   │   ├── 31.png
+│   │   │   ├── 3200.png
+│   │   │   ├── 32.png
+│   │   │   ├── 33.png
+│   │   │   ├── 34.png
+│   │   │   ├── 35.png
+│   │   │   ├── 36.png
+│   │   │   ├── 37.png
+│   │   │   ├── 38.png
+│   │   │   ├── 39.png
+│   │   │   ├── 3.png
+│   │   │   ├── 40.png
+│   │   │   ├── 41.png
+│   │   │   ├── 42.png
+│   │   │   ├── 43.png
+│   │   │   ├── 44.png
+│   │   │   ├── 45.png
+│   │   │   ├── 46.png
+│   │   │   ├── 47.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   ├── 6.png
+│   │   │   ├── 7.png
+│   │   │   ├── 8.png
+│   │   │   ├── 9.png
+│   │   │   ├── home.png
+│   │   │   ├── humidity.png
+│   │   │   ├── temp.png
+│   │   │   ├── web_upd8.png
+│   │   │   └── wind.png
+│   │   ├── ConkyWhiteTilesv2.cmtheme
+│   │   ├── ConkyWhiteTilesv2.png
+│   │   ├── disk_home
+│   │   ├── disk_home.png
+│   │   ├── fonts
+│   │   │   └── Open_Sans_Light.ttf
+│   │   ├── news
+│   │   ├── news.png
+│   │   ├── news.py
+│   │   ├── source.txt
+│   │   ├── temp
+│   │   ├── temp.png
+│   │   ├── time
+│   │   ├── time.png
+│   │   ├── weather_5days
+│   │   ├── weather_5days.png
+│   │   ├── webupd8
+│   │   ├── webupd8.png
+│   │   └── webupd8.py
+│   ├── Cowon Conky
+│   │   ├── cowon
+│   │   ├── cowon blue
+│   │   ├── cowon blue.png
+│   │   ├── Cowon Jess
+│   │   ├── Cowon Jess.png
+│   │   ├── cowon.png
+│   │   ├── credits.txt
+│   │   ├── fonts
+│   │   │   └── Dinreg_Regular.ttf
+│   │   └── source.txt
+│   ├── CPUPanel
+│   │   ├── CPUPanel - 2 Core CPU
+│   │   ├── CPUPanel - 2 Core CPU.png
+│   │   ├── CPUPanel - 4 Core CPU
+│   │   ├── CPUPanel - 4 Core CPU.png
+│   │   ├── CPUPanel - 6 Core CPU
+│   │   ├── CPUPanel - 6 Core CPU.png
+│   │   ├── CPUPanel - 8 Core CPU
+│   │   ├── CPUPanel - 8 Core CPU.png
+│   │   ├── credits.txt
+│   │   └── source.txt
+│   ├── Cubes Conky
+│   │   ├── cc
+│   │   │   ├── cc1.png
+│   │   │   ├── cc2.png
+│   │   │   ├── cc3.png
+│   │   │   ├── cc4.png
+│   │   │   └── cc5.png
+│   │   ├── conkyrc
+│   │   ├── conkyrc.png
+│   │   ├── fonts
+│   │   │   └── Swiss921_BT.ttf
+│   │   ├── lua
+│   │   │   └── clock.lua
+│   │   └── source.txt
+│   ├── Emays
+│   │   ├── conkyrc
+│   │   ├── conkyrc.png
+│   │   ├── fonts
+│   │   │   └── Janda_Cheerful_Script.ttf
+│   │   └── source.txt
+│   ├── fonts
+│   │   ├── Anabelle_Script_Light.ttf
+│   │   ├── Anabelle_Script.ttf
+│   │   ├── AvantGarde_LT_Medium.ttf
+│   │   ├── Caviar_Dreams_Bold_Italic.ttf
+│   │   ├── Caviar_Dreams_Bold.ttf
+│   │   ├── Caviar_Dreams_Italic.ttf
+│   │   ├── Caviar_Dreams.ttf
+│   │   ├── Comic_Sans_MS_Bold.ttf
+│   │   ├── Comic_Sans_MS.ttf
+│   │   ├── Dinreg_Regular.ttf
+│   │   ├── Future.ttf
+│   │   ├── GE_Inspira.ttf
+│   │   ├── Janda_Cheerful_Script.ttf
+│   │   ├── Michroma.ttf
+│   │   ├── Neuropolitical.ttf
+│   │   ├── Open_Sans_Light.ttf
+│   │   ├── Open_Sans_Semibold.ttf
+│   │   ├── Open_Sans.ttf
+│   │   ├── PF_Tempesta_Five_Bold.ttf
+│   │   ├── PF_Tempesta_Five_Compressed_Bold.ttf
+│   │   ├── PF_Tempesta_Five_Compressed.ttf
+│   │   ├── PF_Tempesta_Five_Condensed_Bold.ttf
+│   │   ├── PF_Tempesta_Five_Condensed.ttf
+│   │   ├── PF_Tempesta_Five_Extended_Bold.ttf
+│   │   ├── PF_Tempesta_Five_Extended.ttf
+│   │   ├── PF_Tempesta_Five.ttf
+│   │   ├── Play_Bold.ttf
+│   │   ├── Play.ttf
+│   │   ├── Radio_Space_Bold_Italic.ttf
+│   │   ├── Radio_Space_Bold.ttf
+│   │   ├── Radio_Space_Condensed.ttf
+│   │   ├── Radio_Space_Italic.ttf
+│   │   ├── Radio_Space.ttf
+│   │   ├── Roboto_Bold.ttf
+│   │   ├── Roboto_Light.ttf
+│   │   ├── Roboto_Medium.ttf
+│   │   ├── Roboto_Regular.ttf
+│   │   ├── Sesame_Regular.ttf
+│   │   ├── Swiss921_BT.ttf
+│   │   ├── Ubuntu_Bold_Italic.ttf
+│   │   ├── Ubuntu_Bold.ttf
+│   │   ├── Ubuntu_Italic.ttf
+│   │   ├── Ubuntu.ttf
+│   │   ├── Zekton_Bold_Italic.ttf
+│   │   ├── Zekton_Bold.ttf
+│   │   ├── Zekton_Italic.ttf
+│   │   └── Zekton.ttf
+│   ├── Frozen Cherry Desktop
+│   │   ├── credits.txt
+│   │   ├── Frozen Cherry.cmtheme
+│   │   ├── Frozen Cherry.png
+│   │   ├── Hermoso_Rc
+│   │   ├── Hermoso_Rc.jpg
+│   │   ├── source.txt
+│   │   └── wallpaper.jpg
+│   ├── Gold&Grey
+│   │   ├── cpu
+│   │   ├── cpu.png
+│   │   ├── disk
+│   │   ├── disk.png
+│   │   ├── fonts
+│   │   │   └── PokyRegular.ttf
+│   │   ├── mem
+│   │   ├── mem.png
+│   │   ├── net
+│   │   ├── net.png
+│   │   ├── source.txt
+│   │   ├── time
+│   │   └── time.png
+│   ├── GoogleIntegratedSystemConky-master
+│   │   ├── background
+│   │   │   ├── wallpaper_arch.png
+│   │   │   └── wallpaper_tux.png
+│   │   ├── config.xml
+│   │   ├── conkyKeepRc
+│   │   ├── conkyrc
+│   │   ├── fonts
+│   │   │   └── monof55.ttf
+│   │   ├── gisc.sh
+│   │   ├── install.sh
+│   │   ├── LICENSE
+│   │   ├── lua
+│   │   │   └── scripts
+│   │   │       └── haunted.lua
+│   │   ├── plank
+│   │   │   └── gisc
+│   │   │       └── dock.theme
+│   │   ├── python
+│   │   │   ├── conky_keep.py
+│   │   │   ├── __main__.py
+│   │   │   └── session_google.py
+│   │   └── README.md
+│   ├── Gotham
+│   │   ├── fonts
+│   │   │   └── GE_Inspira.ttf
+│   │   ├── Gotham
+│   │   ├── Gotham.jpg
+│   │   ├── Gotham.png
+│   │   └── source.txt
+│   ├── Green Apple Desktop
+│   │   ├── conky_seamod
+│   │   ├── conky_seamod.jpg
+│   │   ├── fonts
+│   │   │   └── Ubuntu.ttf
+│   │   ├── Gotham
+│   │   ├── Gotham.jpg
+│   │   ├── Gotham.png
+│   │   ├── Green Apple Desktop.cmtheme
+│   │   ├── Green Apple Desktop.jpg
+│   │   ├── Green Apple Desktop.png
+│   │   ├── seamod_rings.lua
+│   │   ├── source.txt
+│   │   ├── wallpaper.jpg
+│   │   └── wallpaper.png
+│   ├── hightech
+│   │   ├── battery
+│   │   │   ├── anim
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 14.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 16.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 18.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 20.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 22.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 24.png
+│   │   │   │   ├── 25.png
+│   │   │   │   ├── 26.png
+│   │   │   │   ├── 27.png
+│   │   │   │   ├── 28.png
+│   │   │   │   ├── 29.png
+│   │   │   │   ├── 30.png
+│   │   │   │   ├── 31.png
+│   │   │   │   ├── 32.png
+│   │   │   │   ├── 33.png
+│   │   │   │   ├── 34.png
+│   │   │   │   ├── 35.png
+│   │   │   │   ├── 36.png
+│   │   │   │   ├── 37.png
+│   │   │   │   ├── 38.png
+│   │   │   │   ├── 39.png
+│   │   │   │   ├── 40.png
+│   │   │   │   ├── 41.png
+│   │   │   │   ├── 42.png
+│   │   │   │   ├── 43.png
+│   │   │   │   ├── 44.png
+│   │   │   │   ├── 45.png
+│   │   │   │   ├── 46.png
+│   │   │   │   └── 47.png
+│   │   │   ├── bargraph_bat.lua
+│   │   │   ├── battery
+│   │   │   ├── batteryanim
+│   │   │   └── bg.png
+│   │   ├── button_script.lua
+│   │   ├── cpu
+│   │   │   ├── anim
+│   │   │   │   ├── li0.png
+│   │   │   │   ├── li10.png
+│   │   │   │   ├── li11.png
+│   │   │   │   ├── li12.png
+│   │   │   │   ├── li13.png
+│   │   │   │   ├── li14.png
+│   │   │   │   ├── li15.png
+│   │   │   │   ├── li16.png
+│   │   │   │   ├── li17.png
+│   │   │   │   ├── li18.png
+│   │   │   │   ├── li19.png
+│   │   │   │   ├── li1.png
+│   │   │   │   ├── li20.png
+│   │   │   │   ├── li21.png
+│   │   │   │   ├── li22.png
+│   │   │   │   ├── li23.png
+│   │   │   │   ├── li24.png
+│   │   │   │   ├── li25.png
+│   │   │   │   ├── li26.png
+│   │   │   │   ├── li27.png
+│   │   │   │   ├── li28.png
+│   │   │   │   ├── li29.png
+│   │   │   │   ├── li2.png
+│   │   │   │   ├── li30.png
+│   │   │   │   ├── li31.png
+│   │   │   │   ├── li32.png
+│   │   │   │   ├── li33.png
+│   │   │   │   ├── li34.png
+│   │   │   │   ├── li35.png
+│   │   │   │   ├── li36.png
+│   │   │   │   ├── li37.png
+│   │   │   │   ├── li38.png
+│   │   │   │   ├── li39.png
+│   │   │   │   ├── li3.png
+│   │   │   │   ├── li40.png
+│   │   │   │   ├── li41.png
+│   │   │   │   ├── li42.png
+│   │   │   │   ├── li43.png
+│   │   │   │   ├── li4.png
+│   │   │   │   ├── li5.png
+│   │   │   │   ├── li6.png
+│   │   │   │   ├── li7.png
+│   │   │   │   ├── li8.png
+│   │   │   │   └── li9.png
+│   │   │   ├── bg.png
+│   │   │   ├── cpu
+│   │   │   ├── cpuanim
+│   │   │   └── rings_cpu.lua
+│   │   ├── draw-bk.lua
+│   │   ├── font
+│   │   │   ├── Earth Memory.otf
+│   │   │   └── LL_RECOR.TTF
+│   │   ├── graphanim
+│   │   │   ├── anim
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 14.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 16.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 18.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 20.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 22.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 24.png
+│   │   │   │   └── 25.png
+│   │   │   ├── bg.png
+│   │   │   └── graphanim
+│   │   ├── hdd
+│   │   │   ├── bargraph_hdd.lua
+│   │   │   ├── bg.png
+│   │   │   ├── hdd
+│   │   │   └── rings_hdd.lua
+│   │   ├── load
+│   │   │   ├── anim
+│   │   │   │   ├── 001.png
+│   │   │   │   ├── 002.png
+│   │   │   │   ├── 003.png
+│   │   │   │   ├── 004.png
+│   │   │   │   ├── 005.png
+│   │   │   │   ├── 006.png
+│   │   │   │   ├── 007.png
+│   │   │   │   ├── 008.png
+│   │   │   │   ├── 009.png
+│   │   │   │   ├── 010.png
+│   │   │   │   ├── 011.png
+│   │   │   │   ├── 012.png
+│   │   │   │   ├── 013.png
+│   │   │   │   ├── 014.png
+│   │   │   │   ├── 015.png
+│   │   │   │   ├── 016.png
+│   │   │   │   ├── 017.png
+│   │   │   │   ├── 018.png
+│   │   │   │   ├── 019.png
+│   │   │   │   ├── 020.png
+│   │   │   │   ├── 021.png
+│   │   │   │   ├── 022.png
+│   │   │   │   ├── 023.png
+│   │   │   │   ├── 024.png
+│   │   │   │   ├── 025.png
+│   │   │   │   ├── 026.png
+│   │   │   │   ├── 027.png
+│   │   │   │   ├── 028.png
+│   │   │   │   ├── 029.png
+│   │   │   │   ├── 030.png
+│   │   │   │   ├── 031.png
+│   │   │   │   ├── 032.png
+│   │   │   │   ├── 033.png
+│   │   │   │   ├── 034.png
+│   │   │   │   ├── 035.png
+│   │   │   │   ├── 036.png
+│   │   │   │   ├── 037.png
+│   │   │   │   ├── 038.png
+│   │   │   │   ├── 039.png
+│   │   │   │   ├── 040.png
+│   │   │   │   ├── 041.png
+│   │   │   │   ├── 042.png
+│   │   │   │   ├── 043.png
+│   │   │   │   ├── 044.png
+│   │   │   │   ├── 045.png
+│   │   │   │   ├── 046.png
+│   │   │   │   ├── 047.png
+│   │   │   │   ├── 048.png
+│   │   │   │   ├── 049.png
+│   │   │   │   ├── 050.png
+│   │   │   │   ├── 051.png
+│   │   │   │   ├── 052.png
+│   │   │   │   ├── 053.png
+│   │   │   │   ├── 054.png
+│   │   │   │   ├── 055.png
+│   │   │   │   ├── 056.png
+│   │   │   │   ├── 057.png
+│   │   │   │   ├── 058.png
+│   │   │   │   ├── 059.png
+│   │   │   │   ├── 060.png
+│   │   │   │   ├── 061.png
+│   │   │   │   ├── 062.png
+│   │   │   │   ├── 063.png
+│   │   │   │   ├── 064.png
+│   │   │   │   ├── 065.png
+│   │   │   │   ├── 066.png
+│   │   │   │   ├── 067.png
+│   │   │   │   ├── 068.png
+│   │   │   │   ├── 069.png
+│   │   │   │   ├── 070.png
+│   │   │   │   ├── 071.png
+│   │   │   │   ├── 072.png
+│   │   │   │   ├── 073.png
+│   │   │   │   ├── 074.png
+│   │   │   │   ├── 075.png
+│   │   │   │   ├── 076.png
+│   │   │   │   ├── 077.png
+│   │   │   │   ├── 078.png
+│   │   │   │   ├── 079.png
+│   │   │   │   ├── 080.png
+│   │   │   │   ├── 081.png
+│   │   │   │   ├── 082.png
+│   │   │   │   ├── 083.png
+│   │   │   │   ├── 084.png
+│   │   │   │   ├── 085.png
+│   │   │   │   ├── 086.png
+│   │   │   │   ├── 087.png
+│   │   │   │   ├── 088.png
+│   │   │   │   ├── 089.png
+│   │   │   │   ├── 090.png
+│   │   │   │   ├── 091.png
+│   │   │   │   ├── 092.png
+│   │   │   │   ├── 093.png
+│   │   │   │   ├── 094.png
+│   │   │   │   ├── 095.png
+│   │   │   │   ├── 096.png
+│   │   │   │   ├── 097.png
+│   │   │   │   ├── 098.png
+│   │   │   │   ├── 099.png
+│   │   │   │   ├── 100.png
+│   │   │   │   ├── 101.png
+│   │   │   │   ├── 102.png
+│   │   │   │   ├── 103.png
+│   │   │   │   ├── 104.png
+│   │   │   │   ├── 105.png
+│   │   │   │   ├── 106.png
+│   │   │   │   ├── 107.png
+│   │   │   │   ├── 108.png
+│   │   │   │   ├── 109.png
+│   │   │   │   ├── 110.png
+│   │   │   │   ├── 111.png
+│   │   │   │   ├── 112.png
+│   │   │   │   ├── 113.png
+│   │   │   │   ├── 114.png
+│   │   │   │   ├── 115.png
+│   │   │   │   ├── 116.png
+│   │   │   │   ├── 117.png
+│   │   │   │   ├── 118.png
+│   │   │   │   ├── 119.png
+│   │   │   │   ├── 120.png
+│   │   │   │   ├── 121.png
+│   │   │   │   ├── 122.png
+│   │   │   │   ├── 123.png
+│   │   │   │   ├── 124.png
+│   │   │   │   ├── 125.png
+│   │   │   │   ├── 126.png
+│   │   │   │   ├── 127.png
+│   │   │   │   ├── 128.png
+│   │   │   │   ├── 129.png
+│   │   │   │   ├── 130.png
+│   │   │   │   ├── 131.png
+│   │   │   │   ├── 132.png
+│   │   │   │   ├── 133.png
+│   │   │   │   ├── 134.png
+│   │   │   │   ├── 135.png
+│   │   │   │   ├── 136.png
+│   │   │   │   ├── 137.png
+│   │   │   │   ├── 138.png
+│   │   │   │   ├── 139.png
+│   │   │   │   ├── 140.png
+│   │   │   │   ├── 141.png
+│   │   │   │   ├── 142.png
+│   │   │   │   ├── 143.png
+│   │   │   │   ├── 144.png
+│   │   │   │   ├── 145.png
+│   │   │   │   ├── 146.png
+│   │   │   │   ├── 147.png
+│   │   │   │   ├── 148.png
+│   │   │   │   ├── 149.png
+│   │   │   │   ├── 150.png
+│   │   │   │   ├── 151.png
+│   │   │   │   ├── 152.png
+│   │   │   │   ├── 153.png
+│   │   │   │   ├── 154.png
+│   │   │   │   ├── 155.png
+│   │   │   │   ├── 156.png
+│   │   │   │   ├── 157.png
+│   │   │   │   ├── 158.png
+│   │   │   │   ├── 159.png
+│   │   │   │   ├── 160.png
+│   │   │   │   ├── 161.png
+│   │   │   │   ├── 162.png
+│   │   │   │   ├── 163.png
+│   │   │   │   ├── 164.png
+│   │   │   │   ├── 165.png
+│   │   │   │   ├── 166.png
+│   │   │   │   ├── 167.png
+│   │   │   │   ├── 168.png
+│   │   │   │   ├── 169.png
+│   │   │   │   ├── 170.png
+│   │   │   │   ├── 171.png
+│   │   │   │   ├── 172.png
+│   │   │   │   ├── 173.png
+│   │   │   │   ├── 174.png
+│   │   │   │   ├── 175.png
+│   │   │   │   ├── 176.png
+│   │   │   │   ├── 177.png
+│   │   │   │   ├── 178.png
+│   │   │   │   ├── 179.png
+│   │   │   │   └── 180.png
+│   │   │   └── load
+│   │   ├── lua_functions.lua
+│   │   ├── mapanim
+│   │   │   ├── anim
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 14.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 16.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 18.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 20.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 22.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 24.png
+│   │   │   │   ├── 25.png
+│   │   │   │   ├── 26.png
+│   │   │   │   ├── 27.png
+│   │   │   │   └── 28.png
+│   │   │   └── mapanim
+│   │   ├── media
+│   │   │   ├── conkyBanshee.py
+│   │   │   ├── conkyBanshee.template
+│   │   │   ├── db-cover.sh
+│   │   │   ├── media_b
+│   │   │   ├── media_d
+│   │   │   └── power.png
+│   │   ├── net
+│   │   │   ├── anim
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 1.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 25.png
+│   │   │   │   ├── 27.png
+│   │   │   │   ├── 29.png
+│   │   │   │   ├── 31.png
+│   │   │   │   ├── 33.png
+│   │   │   │   ├── 35.png
+│   │   │   │   ├── 37.png
+│   │   │   │   ├── 39.png
+│   │   │   │   ├── 3.png
+│   │   │   │   ├── 41.png
+│   │   │   │   ├── 43.png
+│   │   │   │   ├── 45.png
+│   │   │   │   ├── 47.png
+│   │   │   │   ├── 49.png
+│   │   │   │   ├── 51.png
+│   │   │   │   ├── 53.png
+│   │   │   │   ├── 55.png
+│   │   │   │   ├── 57.png
+│   │   │   │   ├── 59.png
+│   │   │   │   ├── 5.png
+│   │   │   │   ├── 7.png
+│   │   │   │   └── 9.png
+│   │   │   ├── bg.png
+│   │   │   ├── net
+│   │   │   ├── netanim
+│   │   │   └── rings_net.lua
+│   │   ├── process
+│   │   │   ├── bg.png
+│   │   │   └── process
+│   │   ├── slideshow
+│   │   │   ├── bg.png
+│   │   │   ├── images
+│   │   │   │   ├── 03317_angrybird_1600x900.jpg
+│   │   │   │   ├── 2011_ford_mustang_v_6-wallpaper-1600x900.jpg
+│   │   │   │   ├── abstract-blue-cube-digital-art-925175-1680x1050.jpg
+│   │   │   │   ├── abstract_texture_blue-1680x1050.jpg
+│   │   │   │   ├── arrow_of_light_by_lhauert_blue-wallpaper-1600x900.jpg
+│   │   │   │   ├── beautiful_vector_flowers-wallpaper-1600x900.jpg
+│   │   │   │   ├── Bird_by_Magnus.jpg
+│   │   │   │   ├── black (21).jpg
+│   │   │   │   ├── black (40).jpg
+│   │   │   │   ├── black (48).jpg
+│   │   │   │   ├── chevy_camaro_classic_cars-wallpaper-1600x900.jpg
+│   │   │   │   ├── Digital-Simple-Design-new-hd-wallpaper-for-desktop-1600x900.jpg
+│   │   │   │   ├── dna-nano-tech-wide.jpg
+│   │   │   │   ├── Early_Morning_by_Robert_Katzki.jpg
+│   │   │   │   ├── eye__qhd_by_in3xplicit-d4dwiw1.jpg
+│   │   │   │   └── Heart-Of-The-Universe.jpg
+│   │   │   ├── slideshow
+│   │   │   └── slideshow.sh
+│   │   ├── user
+│   │   │   ├── anim
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   ├── 05.png
+│   │   │   │   ├── 06.png
+│   │   │   │   ├── 07.png
+│   │   │   │   ├── 08.png
+│   │   │   │   ├── 09.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 14.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 16.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 18.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 20.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 22.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 24.png
+│   │   │   │   ├── 25.png
+│   │   │   │   ├── 26.png
+│   │   │   │   ├── 27.png
+│   │   │   │   ├── 28.png
+│   │   │   │   ├── 29.png
+│   │   │   │   ├── 30.png
+│   │   │   │   ├── 31.png
+│   │   │   │   ├── 32.png
+│   │   │   │   ├── 33.png
+│   │   │   │   ├── 34.png
+│   │   │   │   ├── 35.png
+│   │   │   │   ├── 36.png
+│   │   │   │   ├── 37.png
+│   │   │   │   ├── 38.png
+│   │   │   │   ├── 39.png
+│   │   │   │   ├── 40.png
+│   │   │   │   ├── 41.png
+│   │   │   │   ├── 42.png
+│   │   │   │   ├── 43.png
+│   │   │   │   ├── 44.png
+│   │   │   │   ├── 45.png
+│   │   │   │   ├── 46.png
+│   │   │   │   ├── 47.png
+│   │   │   │   ├── 48.png
+│   │   │   │   ├── 49.png
+│   │   │   │   ├── 50.png
+│   │   │   │   ├── 51.png
+│   │   │   │   ├── 52.png
+│   │   │   │   ├── 53.png
+│   │   │   │   ├── 54.png
+│   │   │   │   ├── 55.png
+│   │   │   │   ├── 56.png
+│   │   │   │   ├── 57.png
+│   │   │   │   ├── 58.png
+│   │   │   │   ├── w01.png
+│   │   │   │   ├── w02.png
+│   │   │   │   ├── w03.png
+│   │   │   │   ├── w04.png
+│   │   │   │   ├── w06.png
+│   │   │   │   ├── w08.png
+│   │   │   │   ├── w09.png
+│   │   │   │   ├── w10.png
+│   │   │   │   ├── w11.png
+│   │   │   │   ├── w12.png
+│   │   │   │   ├── w13.png
+│   │   │   │   ├── w14.png
+│   │   │   │   ├── w15.png
+│   │   │   │   ├── w16.png
+│   │   │   │   ├── w17.png
+│   │   │   │   ├── w18.png
+│   │   │   │   ├── w19.png
+│   │   │   │   ├── w20.png
+│   │   │   │   ├── w21.png
+│   │   │   │   ├── w22.png
+│   │   │   │   ├── w23.png
+│   │   │   │   ├── w24.png
+│   │   │   │   ├── w25.png
+│   │   │   │   ├── w26.png
+│   │   │   │   ├── w27.png
+│   │   │   │   ├── w28.png
+│   │   │   │   ├── w29.png
+│   │   │   │   ├── w30.png
+│   │   │   │   ├── w31.png
+│   │   │   │   ├── w32.png
+│   │   │   │   ├── w33.png
+│   │   │   │   ├── w34.png
+│   │   │   │   ├── w35.png
+│   │   │   │   ├── w36.png
+│   │   │   │   ├── w37.png
+│   │   │   │   ├── w38.png
+│   │   │   │   ├── w39.png
+│   │   │   │   ├── w40.png
+│   │   │   │   ├── w41.png
+│   │   │   │   ├── w42.png
+│   │   │   │   ├── w43.png
+│   │   │   │   ├── w44.png
+│   │   │   │   ├── w45.png
+│   │   │   │   ├── w46.png
+│   │   │   │   ├── w47.png
+│   │   │   │   ├── w48.png
+│   │   │   │   ├── w49.png
+│   │   │   │   ├── w50.png
+│   │   │   │   ├── w51.png
+│   │   │   │   ├── w52.png
+│   │   │   │   ├── w53.png
+│   │   │   │   ├── w54.png
+│   │   │   │   ├── w55.png
+│   │   │   │   ├── w56.png
+│   │   │   │   ├── w57.png
+│   │   │   │   └── w58.png
+│   │   │   ├── bg.png
+│   │   │   ├── user
+│   │   │   └── useranim
+│   │   ├── wall 1920x1080.png
+│   │   ├── wall.png
+│   │   └── weather
+│   │       ├── bg.png
+│   │       ├── humidity.png
+│   │       ├── icon_horizontal
+│   │       │   ├── 0.png
+│   │       │   ├── 10.png
+│   │       │   ├── 11.png
+│   │       │   ├── 12.png
+│   │       │   ├── 13.png
+│   │       │   ├── 14.png
+│   │       │   ├── 15.png
+│   │       │   ├── 16.png
+│   │       │   ├── 17.png
+│   │       │   ├── 18.png
+│   │       │   ├── 19.png
+│   │       │   ├── 1.png
+│   │       │   ├── 20.png
+│   │       │   ├── 21.png
+│   │       │   ├── 22.png
+│   │       │   ├── 23.png
+│   │       │   ├── 24.png
+│   │       │   ├── 25.png
+│   │       │   ├── 26.png
+│   │       │   ├── 27.png
+│   │       │   ├── 28.png
+│   │       │   ├── 29.png
+│   │       │   ├── 2.png
+│   │       │   ├── 30.png
+│   │       │   ├── 31.png
+│   │       │   ├── 3200.png
+│   │       │   ├── 32.png
+│   │       │   ├── 33.png
+│   │       │   ├── 34.png
+│   │       │   ├── 35.png
+│   │       │   ├── 36.png
+│   │       │   ├── 37.png
+│   │       │   ├── 38.png
+│   │       │   ├── 39.png
+│   │       │   ├── 3.png
+│   │       │   ├── 40.png
+│   │       │   ├── 41.png
+│   │       │   ├── 42.png
+│   │       │   ├── 43.png
+│   │       │   ├── 44.png
+│   │       │   ├── 45.png
+│   │       │   ├── 46.png
+│   │       │   ├── 47.png
+│   │       │   ├── 4.png
+│   │       │   ├── 5.png
+│   │       │   ├── 6.png
+│   │       │   ├── 7.png
+│   │       │   ├── 8.png
+│   │       │   └── 9.png
+│   │       ├── icon_vertical
+│   │       │   ├── 0.jpg
+│   │       │   ├── 10.jpg
+│   │       │   ├── 11.jpg
+│   │       │   ├── 12.jpg
+│   │       │   ├── 13.jpg
+│   │       │   ├── 14.jpg
+│   │       │   ├── 15.jpg
+│   │       │   ├── 16.jpg
+│   │       │   ├── 17.jpg
+│   │       │   ├── 18.jpg
+│   │       │   ├── 19.jpg
+│   │       │   ├── 1.jpg
+│   │       │   ├── 20.jpg
+│   │       │   ├── 21.jpg
+│   │       │   ├── 22.jpg
+│   │       │   ├── 23.jpg
+│   │       │   ├── 24.jpg
+│   │       │   ├── 25.jpg
+│   │       │   ├── 26.jpg
+│   │       │   ├── 27.jpg
+│   │       │   ├── 28.jpg
+│   │       │   ├── 29.jpg
+│   │       │   ├── 2.jpg
+│   │       │   ├── 30.jpg
+│   │       │   ├── 31.jpg
+│   │       │   ├── 32.jpg
+│   │       │   ├── 33.jpg
+│   │       │   ├── 34.jpg
+│   │       │   ├── 35.jpg
+│   │       │   ├── 36.jpg
+│   │       │   ├── 37.jpg
+│   │       │   ├── 38.jpg
+│   │       │   ├── 39.jpg
+│   │       │   ├── 3.jpg
+│   │       │   ├── 40.jpg
+│   │       │   ├── 41.jpg
+│   │       │   ├── 42.jpg
+│   │       │   ├── 43.jpg
+│   │       │   ├── 44.jpg
+│   │       │   ├── 45.jpg
+│   │       │   ├── 46.jpg
+│   │       │   ├── 47.jpg
+│   │       │   ├── 4.jpg
+│   │       │   ├── 5.jpg
+│   │       │   ├── 6.jpg
+│   │       │   ├── 7.jpg
+│   │       │   ├── 8.jpg
+│   │       │   └── 9.jpg
+│   │       ├── na.png
+│   │       ├── pressure.png
+│   │       ├── weather
+│   │       └── wind-2.png
+│   ├── IphoneStyle-RC
+│   │   ├── clock.lua
+│   │   ├── conky_icons
+│   │   │   ├── 0.png
+│   │   │   ├── 10.png
+│   │   │   ├── 11.png
+│   │   │   ├── 12.png
+│   │   │   ├── 13.png
+│   │   │   ├── 14.png
+│   │   │   ├── 15.png
+│   │   │   ├── 16.png
+│   │   │   ├── 17.png
+│   │   │   ├── 18.png
+│   │   │   ├── 19.png
+│   │   │   ├── 1.png
+│   │   │   ├── 20.png
+│   │   │   ├── 21.png
+│   │   │   ├── 22.png
+│   │   │   ├── 23.png
+│   │   │   ├── 24.png
+│   │   │   ├── 25.png
+│   │   │   ├── 26.png
+│   │   │   ├── 27.png
+│   │   │   ├── 28.png
+│   │   │   ├── 29.png
+│   │   │   ├── 2.png
+│   │   │   ├── 30.png
+│   │   │   ├── 31.png
+│   │   │   ├── 3200.png
+│   │   │   ├── 32.png
+│   │   │   ├── 33.png
+│   │   │   ├── 34.png
+│   │   │   ├── 35.png
+│   │   │   ├── 36.png
+│   │   │   ├── 37.png
+│   │   │   ├── 38.png
+│   │   │   ├── 39.png
+│   │   │   ├── 3.png
+│   │   │   ├── 40.png
+│   │   │   ├── 41.png
+│   │   │   ├── 42.png
+│   │   │   ├── 43.png
+│   │   │   ├── 44.png
+│   │   │   ├── 45.png
+│   │   │   ├── 46.png
+│   │   │   ├── 47.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   ├── 6.png
+│   │   │   ├── 7.png
+│   │   │   ├── 8.png
+│   │   │   ├── 9.png
+│   │   │   ├── datebox.png
+│   │   │   ├── diskh.png
+│   │   │   ├── time.png
+│   │   │   └── weather.png
+│   │   ├── conkystart.sh
+│   │   ├── date
+│   │   ├── date.png
+│   │   ├── disk
+│   │   ├── disk.png
+│   │   ├── fonts
+│   │   │   ├── Roboto_Light.ttf
+│   │   │   ├── Roboto_Medium.ttf
+│   │   │   └── Roboto_Regular.ttf
+│   │   ├── IphoneStyle-RC.cmtheme
+│   │   ├── IphoneStyle-RC.png
+│   │   ├── source.txt
+│   │   ├── time
+│   │   ├── time.png
+│   │   ├── weatherg
+│   │   └── weatherg.png
+│   ├── i7RC Colors
+│   │   ├── conky
+│   │   │   ├── clock.lua
+│   │   │   ├── conky_icons
+│   │   │   │   ├── 0.png
+│   │   │   │   ├── 10.png
+│   │   │   │   ├── 11.png
+│   │   │   │   ├── 12.png
+│   │   │   │   ├── 13.png
+│   │   │   │   ├── 14.png
+│   │   │   │   ├── 15.png
+│   │   │   │   ├── 16.png
+│   │   │   │   ├── 17.png
+│   │   │   │   ├── 18.png
+│   │   │   │   ├── 19.png
+│   │   │   │   ├── 1.png
+│   │   │   │   ├── 20.png
+│   │   │   │   ├── 21.png
+│   │   │   │   ├── 22.png
+│   │   │   │   ├── 23.png
+│   │   │   │   ├── 24.png
+│   │   │   │   ├── 25.png
+│   │   │   │   ├── 26.png
+│   │   │   │   ├── 27.png
+│   │   │   │   ├── 28.png
+│   │   │   │   ├── 29.png
+│   │   │   │   ├── 2.png
+│   │   │   │   ├── 30.png
+│   │   │   │   ├── 31.png
+│   │   │   │   ├── 3200.png
+│   │   │   │   ├── 32.png
+│   │   │   │   ├── 33.png
+│   │   │   │   ├── 34.png
+│   │   │   │   ├── 35.png
+│   │   │   │   ├── 36.png
+│   │   │   │   ├── 37.png
+│   │   │   │   ├── 38.png
+│   │   │   │   ├── 39.png
+│   │   │   │   ├── 3.png
+│   │   │   │   ├── 40.png
+│   │   │   │   ├── 41.png
+│   │   │   │   ├── 42.png
+│   │   │   │   ├── 43.png
+│   │   │   │   ├── 44.png
+│   │   │   │   ├── 45.png
+│   │   │   │   ├── 46.png
+│   │   │   │   ├── 47.png
+│   │   │   │   ├── 4.png
+│   │   │   │   ├── 5.png
+│   │   │   │   ├── 6.png
+│   │   │   │   ├── 7.png
+│   │   │   │   ├── 8.png
+│   │   │   │   ├── 9.png
+│   │   │   │   ├── datebox.png
+│   │   │   │   ├── diskh.png
+│   │   │   │   ├── time.png
+│   │   │   │   └── weather.png
+│   │   │   ├── conkystart.sh
+│   │   │   ├── date
+│   │   │   ├── date.png
+│   │   │   ├── disk
+│   │   │   ├── disk.png
+│   │   │   ├── source.txt
+│   │   │   ├── time
+│   │   │   ├── time.png
+│   │   │   ├── weatherg
+│   │   │   └── weatherg.png
+│   │   ├── fonts
+│   │   │   ├── Comic_Sans_MS_Bold.ttf
+│   │   │   └── Comic_Sans_MS.ttf
+│   │   ├── i7RC Colors.cmtheme
+│   │   ├── i7RC Colors.png
+│   │   └── source.txt
+│   ├── LSD
+│   │   ├── fonts
+│   │   │   ├── Zekton_Bold_Italic.ttf
+│   │   │   ├── Zekton_Bold.ttf
+│   │   │   ├── Zekton_Italic.ttf
+│   │   │   └── Zekton.ttf
+│   │   ├── lsd
+│   │   │   ├── conkyrc
+│   │   │   ├── conkyrc.png
+│   │   │   ├── lsd.png
+│   │   │   └── source.txt
+│   │   └── lsd2
+│   │       ├── conkyrc
+│   │       ├── conkyrc.png
+│   │       ├── lsd.png
+│   │       ├── lsd_rings.lua
+│   │       └── source.txt
+│   ├── MONITOR
+│   ├── MyDesktop
+│   │   ├── MyDesktop.cmtheme
+│   │   ├── MyDesktop.png
+│   │   └── wallpaper.png
+│   ├── Phoenix Coyotes
+│   │   ├── font
+│   │   │   └── TallFilms.ttf
+│   │   ├── Phoenix Coyotes.cmtheme
+│   │   ├── Phoenix Coyotes.png
+│   │   ├── Simple_Rc
+│   │   ├── Simple_Rc.jpg
+│   │   └── wallpaper.jpg
+│   ├── SciFi_Conky_HUD
+│   │   ├── circle_anim.rc
+│   │   ├── city_list.txt
+│   │   ├── _config.yml
+│   │   ├── conky_start
+│   │   ├── cpubar.rc
+│   │   ├── cpu.rc
+│   │   ├── github-conky-repositories.md
+│   │   ├── hdd.rc
+│   │   ├── images
+│   │   │   ├── 01.png
+│   │   │   ├── 11.png
+│   │   │   ├── anim
+│   │   │   │   ├── bit0.png
+│   │   │   │   ├── bit1.png
+│   │   │   │   ├── bit2.png
+│   │   │   │   ├── bit3.png
+│   │   │   │   ├── bit4.png
+│   │   │   │   ├── bit5.png
+│   │   │   │   ├── bit6.png
+│   │   │   │   ├── bit7.png
+│   │   │   │   ├── bit8.png
+│   │   │   │   └── bit9.png
+│   │   │   ├── anim1
+│   │   │   │   ├── 01.png
+│   │   │   │   ├── 02.png
+│   │   │   │   ├── 03.png
+│   │   │   │   ├── 04.png
+│   │   │   │   └── 05.png
+│   │   │   ├── anim2
+│   │   │   │   ├── an01.png
+│   │   │   │   ├── an02.png
+│   │   │   │   ├── an03.png
+│   │   │   │   ├── an04.png
+│   │   │   │   ├── an05.png
+│   │   │   │   ├── an06.png
+│   │   │   │   ├── an07.png
+│   │   │   │   ├── an08.png
+│   │   │   │   ├── an09.png
+│   │   │   │   ├── an10.png
+│   │   │   │   ├── an11.png
+│   │   │   │   ├── an12.png
+│   │   │   │   ├── an13.png
+│   │   │   │   ├── an14.png
+│   │   │   │   ├── an15.png
+│   │   │   │   ├── an16.png
+│   │   │   │   ├── an17.png
+│   │   │   │   ├── an18.png
+│   │   │   │   ├── an19.png
+│   │   │   │   ├── an20.png
+│   │   │   │   ├── an21.png
+│   │   │   │   └── an22.png
+│   │   │   ├── anim3
+│   │   │   │   ├── frame-0001.png
+│   │   │   │   ├── frame-0016.png
+│   │   │   │   ├── frame-0031.png
+│   │   │   │   ├── frame-0046.png
+│   │   │   │   ├── frame-0061.png
+│   │   │   │   ├── frame-0076.png
+│   │   │   │   ├── frame-0091.png
+│   │   │   │   ├── frame-0106.png
+│   │   │   │   ├── frame-0121.png
+│   │   │   │   ├── frame-0136.png
+│   │   │   │   ├── frame-0151.png
+│   │   │   │   ├── frame-0166.png
+│   │   │   │   ├── frame-0181.png
+│   │   │   │   ├── frame-0196.png
+│   │   │   │   ├── frame-0211.png
+│   │   │   │   ├── frame-0226.png
+│   │   │   │   ├── frame-0241.png
+│   │   │   │   ├── frame-0256.png
+│   │   │   │   ├── frame-0271.png
+│   │   │   │   ├── frame-0286.png
+│   │   │   │   ├── frame-0301.png
+│   │   │   │   ├── frame-0316.png
+│   │   │   │   ├── frame-0331.png
+│   │   │   │   ├── frame-0346.png
+│   │   │   │   ├── frame-0361.png
+│   │   │   │   ├── frame-0376.png
+│   │   │   │   ├── frame-0391.png
+│   │   │   │   ├── frame-0406.png
+│   │   │   │   ├── frame-0421.png
+│   │   │   │   ├── frame-0436.png
+│   │   │   │   ├── frame-0451.png
+│   │   │   │   ├── frame-0466.png
+│   │   │   │   ├── frame-0481.png
+│   │   │   │   ├── frame-0496.png
+│   │   │   │   ├── frame-0511.png
+│   │   │   │   ├── frame-0526.png
+│   │   │   │   ├── frame-0541.png
+│   │   │   │   ├── frame-0556.png
+│   │   │   │   ├── frame-0571.png
+│   │   │   │   ├── frame-0586.png
+│   │   │   │   ├── frame-0601.png
+│   │   │   │   ├── frame-0616.png
+│   │   │   │   ├── frame-0631.png
+│   │   │   │   ├── frame-0646.png
+│   │   │   │   ├── frame-0661.png
+│   │   │   │   ├── frame-0676.png
+│   │   │   │   ├── frame-0691.png
+│   │   │   │   ├── frame-0706.png
+│   │   │   │   ├── frame-0721.png
+│   │   │   │   ├── frame-0736.png
+│   │   │   │   ├── frame-0751.png
+│   │   │   │   ├── frame-0766.png
+│   │   │   │   ├── frame-0781.png
+│   │   │   │   ├── frame-0796.png
+│   │   │   │   ├── frame-0811.png
+│   │   │   │   ├── frame-0826.png
+│   │   │   │   ├── frame-0841.png
+│   │   │   │   ├── frame-0856.png
+│   │   │   │   ├── frame-0871.png
+│   │   │   │   ├── frame-0886.png
+│   │   │   │   ├── frame-0901.png
+│   │   │   │   ├── frame-0916.png
+│   │   │   │   ├── frame-0931.png
+│   │   │   │   ├── frame-0946.png
+│   │   │   │   ├── frame-0961.png
+│   │   │   │   ├── frame-0976.png
+│   │   │   │   ├── frame-0991.png
+│   │   │   │   ├── frame-1006.png
+│   │   │   │   ├── frame-1021.png
+│   │   │   │   ├── frame-1036.png
+│   │   │   │   ├── frame-1051.png
+│   │   │   │   ├── frame-1066.png
+│   │   │   │   ├── frame-1081.png
+│   │   │   │   ├── frame-1096.png
+│   │   │   │   ├── frame-1111.png
+│   │   │   │   ├── frame-1126.png
+│   │   │   │   ├── frame-1141.png
+│   │   │   │   ├── frame-1156.png
+│   │   │   │   ├── frame-1171.png
+│   │   │   │   ├── frame-1186.png
+│   │   │   │   ├── frame-1201.png
+│   │   │   │   ├── frame-1216.png
+│   │   │   │   ├── frame-1231.png
+│   │   │   │   ├── frame-1246.png
+│   │   │   │   ├── frame-1261.png
+│   │   │   │   ├── frame-1276.png
+│   │   │   │   ├── frame-1291.png
+│   │   │   │   ├── frame-1306.png
+│   │   │   │   ├── frame-1321.png
+│   │   │   │   ├── frame-1336.png
+│   │   │   │   ├── frame-1351.png
+│   │   │   │   ├── frame-1366.png
+│   │   │   │   ├── frame-1381.png
+│   │   │   │   ├── frame-1396.png
+│   │   │   │   ├── frame-1411.png
+│   │   │   │   ├── frame-1426.png
+│   │   │   │   ├── frame-1441.png
+│   │   │   │   ├── frame-1456.png
+│   │   │   │   ├── frame-1471.png
+│   │   │   │   ├── frame-1486.png
+│   │   │   │   ├── frame-1501.png
+│   │   │   │   ├── frame-1516.png
+│   │   │   │   ├── frame-1531.png
+│   │   │   │   ├── frame-1546.png
+│   │   │   │   ├── frame-1561.png
+│   │   │   │   ├── frame-1576.png
+│   │   │   │   ├── frame-1591.png
+│   │   │   │   ├── frame-1606.png
+│   │   │   │   ├── frame-1621.png
+│   │   │   │   ├── frame-1636.png
+│   │   │   │   ├── frame-1651.png
+│   │   │   │   ├── frame-1666.png
+│   │   │   │   ├── frame-1681.png
+│   │   │   │   ├── frame-1696.png
+│   │   │   │   ├── frame-1711.png
+│   │   │   │   ├── frame-1726.png
+│   │   │   │   ├── frame-1741.png
+│   │   │   │   ├── frame-1756.png
+│   │   │   │   ├── frame-1771.png
+│   │   │   │   ├── frame-1786.png
+│   │   │   │   ├── frame-1801.png
+│   │   │   │   ├── frame-1816.png
+│   │   │   │   ├── frame-1831.png
+│   │   │   │   ├── frame-1846.png
+│   │   │   │   ├── frame-1861.png
+│   │   │   │   ├── frame-1876.png
+│   │   │   │   ├── frame-1891.png
+│   │   │   │   ├── frame-1906.png
+│   │   │   │   ├── frame-1921.png
+│   │   │   │   ├── frame-1936.png
+│   │   │   │   ├── frame-1951.png
+│   │   │   │   ├── frame-1966.png
+│   │   │   │   ├── frame-1981.png
+│   │   │   │   ├── frame-1996.png
+│   │   │   │   ├── frame-2011.png
+│   │   │   │   ├── frame-2026.png
+│   │   │   │   ├── frame-2041.png
+│   │   │   │   ├── frame-2056.png
+│   │   │   │   ├── frame-2071.png
+│   │   │   │   ├── frame-2086.png
+│   │   │   │   ├── frame-2101.png
+│   │   │   │   ├── frame-2116.png
+│   │   │   │   ├── frame-2131.png
+│   │   │   │   ├── frame-2146.png
+│   │   │   │   ├── frame-2161.png
+│   │   │   │   └── frame-2176.png
+│   │   │   ├── anim4
+│   │   │   │   ├── thc-0.png
+│   │   │   │   ├── thc-100.png
+│   │   │   │   ├── thc-101.png
+│   │   │   │   ├── thc-102.png
+│   │   │   │   ├── thc-103.png
+│   │   │   │   ├── thc-104.png
+│   │   │   │   ├── thc-105.png
+│   │   │   │   ├── thc-106.png
+│   │   │   │   ├── thc-107.png
+│   │   │   │   ├── thc-108.png
+│   │   │   │   ├── thc-109.png
+│   │   │   │   ├── thc-10.png
+│   │   │   │   ├── thc-110.png
+│   │   │   │   ├── thc-111.png
+│   │   │   │   ├── thc-112.png
+│   │   │   │   ├── thc-113.png
+│   │   │   │   ├── thc-114.png
+│   │   │   │   ├── thc-115.png
+│   │   │   │   ├── thc-116.png
+│   │   │   │   ├── thc-117.png
+│   │   │   │   ├── thc-118.png
+│   │   │   │   ├── thc-119.png
+│   │   │   │   ├── thc-11.png
+│   │   │   │   ├── thc-120.png
+│   │   │   │   ├── thc-121.png
+│   │   │   │   ├── thc-122.png
+│   │   │   │   ├── thc-12.png
+│   │   │   │   ├── thc-13.png
+│   │   │   │   ├── thc-14.png
+│   │   │   │   ├── thc-15.png
+│   │   │   │   ├── thc-16.png
+│   │   │   │   ├── thc-17.png
+│   │   │   │   ├── thc-18.png
+│   │   │   │   ├── thc-19.png
+│   │   │   │   ├── thc-1.png
+│   │   │   │   ├── thc-20.png
+│   │   │   │   ├── thc-21.png
+│   │   │   │   ├── thc-22.png
+│   │   │   │   ├── thc-23.png
+│   │   │   │   ├── thc-24.png
+│   │   │   │   ├── thc-25.png
+│   │   │   │   ├── thc-26.png
+│   │   │   │   ├── thc-27.png
+│   │   │   │   ├── thc-28.png
+│   │   │   │   ├── thc-29.png
+│   │   │   │   ├── thc-2.png
+│   │   │   │   ├── thc-30.png
+│   │   │   │   ├── thc-31.png
+│   │   │   │   ├── thc-32.png
+│   │   │   │   ├── thc-33.png
+│   │   │   │   ├── thc-34.png
+│   │   │   │   ├── thc-35.png
+│   │   │   │   ├── thc-36.png
+│   │   │   │   ├── thc-37.png
+│   │   │   │   ├── thc-38.png
+│   │   │   │   ├── thc-39.png
+│   │   │   │   ├── thc-3.png
+│   │   │   │   ├── thc-40.png
+│   │   │   │   ├── thc-41.png
+│   │   │   │   ├── thc-42.png
+│   │   │   │   ├── thc-43.png
+│   │   │   │   ├── thc-44.png
+│   │   │   │   ├── thc-45.png
+│   │   │   │   ├── thc-46.png
+│   │   │   │   ├── thc-47.png
+│   │   │   │   ├── thc-48.png
+│   │   │   │   ├── thc-49.png
+│   │   │   │   ├── thc-4.png
+│   │   │   │   ├── thc-50.png
+│   │   │   │   ├── thc-51.png
+│   │   │   │   ├── thc-52.png
+│   │   │   │   ├── thc-53.png
+│   │   │   │   ├── thc-54.png
+│   │   │   │   ├── thc-55.png
+│   │   │   │   ├── thc-56.png
+│   │   │   │   ├── thc-57.png
+│   │   │   │   ├── thc-58.png
+│   │   │   │   ├── thc-59.png
+│   │   │   │   ├── thc-5.png
+│   │   │   │   ├── thc-60.png
+│   │   │   │   ├── thc-61.png
+│   │   │   │   ├── thc-62.png
+│   │   │   │   ├── thc-63.png
+│   │   │   │   ├── thc-64.png
+│   │   │   │   ├── thc-65.png
+│   │   │   │   ├── thc-66.png
+│   │   │   │   ├── thc-67.png
+│   │   │   │   ├── thc-68.png
+│   │   │   │   ├── thc-69.png
+│   │   │   │   ├── thc-6.png
+│   │   │   │   ├── thc-70.png
+│   │   │   │   ├── thc-71.png
+│   │   │   │   ├── thc-72.png
+│   │   │   │   ├── thc-73.png
+│   │   │   │   ├── thc-74.png
+│   │   │   │   ├── thc-75.png
+│   │   │   │   ├── thc-76.png
+│   │   │   │   ├── thc-77.png
+│   │   │   │   ├── thc-78.png
+│   │   │   │   ├── thc-79.png
+│   │   │   │   ├── thc-7.png
+│   │   │   │   ├── thc-80.png
+│   │   │   │   ├── thc-81.png
+│   │   │   │   ├── thc-82.png
+│   │   │   │   ├── thc-83.png
+│   │   │   │   ├── thc-84.png
+│   │   │   │   ├── thc-85.png
+│   │   │   │   ├── thc-86.png
+│   │   │   │   ├── thc-87.png
+│   │   │   │   ├── thc-88.png
+│   │   │   │   ├── thc-89.png
+│   │   │   │   ├── thc-8.png
+│   │   │   │   ├── thc-90.png
+│   │   │   │   ├── thc-91.png
+│   │   │   │   ├── thc-92.png
+│   │   │   │   ├── thc-93.png
+│   │   │   │   ├── thc-94.png
+│   │   │   │   ├── thc-95.png
+│   │   │   │   ├── thc-96.png
+│   │   │   │   ├── thc-97.png
+│   │   │   │   ├── thc-98.png
+│   │   │   │   ├── thc-99.png
+│   │   │   │   └── thc-9.png
+│   │   │   ├── anim5
+│   │   │   │   ├── dna-0.png
+│   │   │   │   ├── dna-10.png
+│   │   │   │   ├── dna-11.png
+│   │   │   │   ├── dna-12.png
+│   │   │   │   ├── dna-13.png
+│   │   │   │   ├── dna-14.png
+│   │   │   │   ├── dna-15.png
+│   │   │   │   ├── dna-16.png
+│   │   │   │   ├── dna-17.png
+│   │   │   │   ├── dna-18.png
+│   │   │   │   ├── dna-19.png
+│   │   │   │   ├── dna-1.png
+│   │   │   │   ├── dna-20.png
+│   │   │   │   ├── dna-21.png
+│   │   │   │   ├── dna-22.png
+│   │   │   │   ├── dna-23.png
+│   │   │   │   ├── dna-24.png
+│   │   │   │   ├── dna-25.png
+│   │   │   │   ├── dna-26.png
+│   │   │   │   ├── dna-27.png
+│   │   │   │   ├── dna-28.png
+│   │   │   │   ├── dna-29.png
+│   │   │   │   ├── dna-2.png
+│   │   │   │   ├── dna-30.png
+│   │   │   │   ├── dna-31.png
+│   │   │   │   ├── dna-32.png
+│   │   │   │   ├── dna-33.png
+│   │   │   │   ├── dna-34.png
+│   │   │   │   ├── dna-35.png
+│   │   │   │   ├── dna-36.png
+│   │   │   │   ├── dna-37.png
+│   │   │   │   ├── dna-38.png
+│   │   │   │   ├── dna-39.png
+│   │   │   │   ├── dna-3.png
+│   │   │   │   ├── dna-40.png
+│   │   │   │   ├── dna-41.png
+│   │   │   │   ├── dna-42.png
+│   │   │   │   ├── dna-43.png
+│   │   │   │   ├── dna-44.png
+│   │   │   │   ├── dna-45.png
+│   │   │   │   ├── dna-46.png
+│   │   │   │   ├── dna-47.png
+│   │   │   │   ├── dna-48.png
+│   │   │   │   ├── dna-49.png
+│   │   │   │   ├── dna-4.png
+│   │   │   │   ├── dna-50.png
+│   │   │   │   ├── dna-51.png
+│   │   │   │   ├── dna-52.png
+│   │   │   │   ├── dna-53.png
+│   │   │   │   ├── dna-54.png
+│   │   │   │   ├── dna-55.png
+│   │   │   │   ├── dna-56.png
+│   │   │   │   ├── dna-57.png
+│   │   │   │   ├── dna-58.png
+│   │   │   │   ├── dna-59.png
+│   │   │   │   ├── dna-5.png
+│   │   │   │   ├── dna-6.png
+│   │   │   │   ├── dna-7.png
+│   │   │   │   ├── dna-8.png
+│   │   │   │   ├── dna-9.png
+│   │   │   │   └── dna.gif
+│   │   │   ├── anim6
+│   │   │   │   ├── diagram-0.png
+│   │   │   │   ├── diagram-10.png
+│   │   │   │   ├── diagram-11.png
+│   │   │   │   ├── diagram-12.png
+│   │   │   │   ├── diagram-13.png
+│   │   │   │   ├── diagram-14.png
+│   │   │   │   ├── diagram-15.png
+│   │   │   │   ├── diagram-16.png
+│   │   │   │   ├── diagram-17.png
+│   │   │   │   ├── diagram-18.png
+│   │   │   │   ├── diagram-19.png
+│   │   │   │   ├── diagram-1.png
+│   │   │   │   ├── diagram-20.png
+│   │   │   │   ├── diagram-21.png
+│   │   │   │   ├── diagram-22.png
+│   │   │   │   ├── diagram-23.png
+│   │   │   │   ├── diagram-24.png
+│   │   │   │   ├── diagram-25.png
+│   │   │   │   ├── diagram-26.png
+│   │   │   │   ├── diagram-27.png
+│   │   │   │   ├── diagram-28.png
+│   │   │   │   ├── diagram-29.png
+│   │   │   │   ├── diagram-2.png
+│   │   │   │   ├── diagram-30.png
+│   │   │   │   ├── diagram-31.png
+│   │   │   │   ├── diagram-32.png
+│   │   │   │   ├── diagram-33.png
+│   │   │   │   ├── diagram-34.png
+│   │   │   │   ├── diagram-35.png
+│   │   │   │   ├── diagram-36.png
+│   │   │   │   ├── diagram-37.png
+│   │   │   │   ├── diagram-38.png
+│   │   │   │   ├── diagram-39.png
+│   │   │   │   ├── diagram-3.png
+│   │   │   │   ├── diagram-40.png
+│   │   │   │   ├── diagram-41.png
+│   │   │   │   ├── diagram-42.png
+│   │   │   │   ├── diagram-43.png
+│   │   │   │   ├── diagram-44.png
+│   │   │   │   ├── diagram-45.png
+│   │   │   │   ├── diagram-46.png
+│   │   │   │   ├── diagram-47.png
+│   │   │   │   ├── diagram-48.png
+│   │   │   │   ├── diagram-49.png
+│   │   │   │   ├── diagram-4.png
+│   │   │   │   ├── diagram-50.png
+│   │   │   │   ├── diagram-51.png
+│   │   │   │   ├── diagram-52.png
+│   │   │   │   ├── diagram-53.png
+│   │   │   │   ├── diagram-54.png
+│   │   │   │   ├── diagram-55.png
+│   │   │   │   ├── diagram-56.png
+│   │   │   │   ├── diagram-57.png
+│   │   │   │   ├── diagram-58.png
+│   │   │   │   ├── diagram-59.png
+│   │   │   │   ├── diagram-5.png
+│   │   │   │   ├── diagram-60.png
+│   │   │   │   ├── diagram-61.png
+│   │   │   │   ├── diagram-62.png
+│   │   │   │   ├── diagram-63.png
+│   │   │   │   ├── diagram-64.png
+│   │   │   │   ├── diagram-65.png
+│   │   │   │   ├── diagram-66.png
+│   │   │   │   ├── diagram-67.png
+│   │   │   │   ├── diagram-68.png
+│   │   │   │   ├── diagram-69.png
+│   │   │   │   ├── diagram-6.png
+│   │   │   │   ├── diagram-70.png
+│   │   │   │   ├── diagram-71.png
+│   │   │   │   ├── diagram-72.png
+│   │   │   │   ├── diagram-73.png
+│   │   │   │   ├── diagram-74.png
+│   │   │   │   ├── diagram-75.png
+│   │   │   │   ├── diagram-76.png
+│   │   │   │   ├── diagram-77.png
+│   │   │   │   ├── diagram-78.png
+│   │   │   │   ├── diagram-79.png
+│   │   │   │   ├── diagram-7.png
+│   │   │   │   ├── diagram-80.png
+│   │   │   │   ├── diagram-81.png
+│   │   │   │   ├── diagram-82.png
+│   │   │   │   ├── diagram-83.png
+│   │   │   │   ├── diagram-84.png
+│   │   │   │   ├── diagram-85.png
+│   │   │   │   ├── diagram-86.png
+│   │   │   │   ├── diagram-87.png
+│   │   │   │   ├── diagram-88.png
+│   │   │   │   ├── diagram-89.png
+│   │   │   │   ├── diagram-8.png
+│   │   │   │   ├── diagram-90.png
+│   │   │   │   ├── diagram-91.png
+│   │   │   │   ├── diagram-92.png
+│   │   │   │   ├── diagram-93.png
+│   │   │   │   ├── diagram-94.png
+│   │   │   │   ├── diagram-95.png
+│   │   │   │   ├── diagram-96.png
+│   │   │   │   ├── diagram-97.png
+│   │   │   │   ├── diagram-98.png
+│   │   │   │   ├── diagram-99.png
+│   │   │   │   ├── diagram-9.png
+│   │   │   │   └── gears.gif
+│   │   │   ├── bg2.png
+│   │   │   ├── bg.png
+│   │   │   ├── cpu_0.png
+│   │   │   ├── cpu_1.png
+│   │   │   ├── cpu_2.png
+│   │   │   ├── cpu_3.png
+│   │   │   ├── cpu_4.png
+│   │   │   ├── cpu.png
+│   │   │   ├── info.png
+│   │   │   ├── mem.png
+│   │   │   ├── net.png
+│   │   │   ├── separator-h-2.png
+│   │   │   ├── separator-h.png
+│   │   │   ├── separator-v.png
+│   │   │   ├── task.png
+│   │   │   ├── user.png
+│   │   │   ├── video.png
+│   │   │   ├── weather1.png
+│   │   │   └── weather.png
+│   │   ├── info.rc
+│   │   ├── LICENSE.md
+│   │   ├── lua
+│   │   │   ├── battery.lua
+│   │   │   ├── circle_anim.lua
+│   │   │   ├── clock.lua
+│   │   │   ├── cpubar.lua
+│   │   │   ├── cpu.lua
+│   │   │   ├── draw-bk.lua
+│   │   │   ├── graph.lua
+│   │   │   ├── hdd.lua
+│   │   │   ├── mem.lua
+│   │   │   └── net.lua
+│   │   ├── mem.rc
+│   │   ├── net.rc
+│   │   ├── openweathermap_screen.png
+│   │   ├── process.rc
+│   │   ├── QqgKQoi-carbon-fibre-wallpaper.jpg
+│   │   ├── README_Add-Animation.md
+│   │   ├── README.md
+│   │   ├── SAMPLE-gifs
+│   │   │   ├── caress.gif
+│   │   │   ├── controls.gif
+│   │   │   ├── explode.gif
+│   │   │   ├── geartunnel.gif
+│   │   │   ├── meter.gif
+│   │   │   ├── orbital.gif
+│   │   │   ├── radar.gif
+│   │   │   ├── satellites.gif
+│   │   │   ├── schematic.gif
+│   │   │   ├── sci-mech.gif
+│   │   │   ├── skull.gif
+│   │   │   ├── spaceflight.gif
+│   │   │   ├── spacetime.gif
+│   │   │   ├── spiral.gif
+│   │   │   ├── starwars.gif
+│   │   │   ├── thc.gif
+│   │   │   ├── tronthing.gif
+│   │   │   └── wireframe.gif
+│   │   ├── user5.rc
+│   │   ├── user.rc
+│   │   ├── video2.rc
+│   │   ├── video6.rc
+│   │   ├── video.rc
+│   │   ├── weather
+│   │   │   ├── 01d.png
+│   │   │   ├── 01n.png
+│   │   │   ├── 02d.png
+│   │   │   ├── 02n.png
+│   │   │   ├── 03d.png
+│   │   │   ├── 03n.png
+│   │   │   ├── 04d.png
+│   │   │   ├── 04n.png
+│   │   │   ├── 09d.png
+│   │   │   ├── 09n.png
+│   │   │   ├── 10d.png
+│   │   │   ├── 10n.png
+│   │   │   ├── 11d.png
+│   │   │   ├── 11n.png
+│   │   │   ├── 13d.png
+│   │   │   ├── 13n.png
+│   │   │   ├── 200.png
+│   │   │   ├── 201.png
+│   │   │   ├── 202.png
+│   │   │   ├── 210.png
+│   │   │   ├── 211.png
+│   │   │   ├── 212.png
+│   │   │   ├── 221.png
+│   │   │   ├── 230.png
+│   │   │   ├── 231.png
+│   │   │   ├── 232.png
+│   │   │   ├── 300.png
+│   │   │   ├── 301.png
+│   │   │   ├── 302.png
+│   │   │   ├── 310.png
+│   │   │   ├── 311.png
+│   │   │   ├── 312.png
+│   │   │   ├── 313.png
+│   │   │   ├── 314.png
+│   │   │   ├── 321.png
+│   │   │   ├── 500.png
+│   │   │   ├── 501.png
+│   │   │   ├── 502.png
+│   │   │   ├── 503.png
+│   │   │   ├── 504.png
+│   │   │   ├── 50d.png
+│   │   │   ├── 50n.png
+│   │   │   ├── 511.png
+│   │   │   ├── 520.png
+│   │   │   ├── 521.png
+│   │   │   ├── 522.png
+│   │   │   ├── 531.png
+│   │   │   ├── 600.png
+│   │   │   ├── 601.png
+│   │   │   ├── 602.png
+│   │   │   ├── 611.png
+│   │   │   ├── 612.png
+│   │   │   ├── 615.png
+│   │   │   ├── 616.png
+│   │   │   ├── 620.png
+│   │   │   ├── 621.png
+│   │   │   ├── 622.png
+│   │   │   ├── 701.png
+│   │   │   ├── 711.png
+│   │   │   ├── 721.png
+│   │   │   ├── 741.png
+│   │   │   ├── 751.png
+│   │   │   ├── 761.png
+│   │   │   ├── 800.png
+│   │   │   ├── 801.png
+│   │   │   ├── 802.png
+│   │   │   ├── 803.png
+│   │   │   ├── 804.png
+│   │   │   ├── 903.png
+│   │   │   ├── 904.png
+│   │   │   └── 905.png
+│   │   ├── weather.rc
+│   │   └── xcf
+│   │       ├── cpu.xcf
+│   │       ├── info.xcf
+│   │       ├── mem.xcf
+│   │       ├── net.xcf
+│   │       ├── task.xcf
+│   │       ├── user.xcf
+│   │       ├── video.xcf
+│   │       └── weather.xcf
+│   ├── ScrollConkyBl-v1
+│   │   ├── conky_icons
+│   │   │   ├── 0.png
+│   │   │   ├── 10.png
+│   │   │   ├── 11.png
+│   │   │   ├── 12.png
+│   │   │   ├── 13.png
+│   │   │   ├── 14.png
+│   │   │   ├── 15.png
+│   │   │   ├── 16.png
+│   │   │   ├── 17.png
+│   │   │   ├── 18.png
+│   │   │   ├── 19.png
+│   │   │   ├── 1.png
+│   │   │   ├── 20.png
+│   │   │   ├── 21.png
+│   │   │   ├── 22.png
+│   │   │   ├── 23.png
+│   │   │   ├── 24.png
+│   │   │   ├── 25.png
+│   │   │   ├── 26.png
+│   │   │   ├── 27.png
+│   │   │   ├── 28.png
+│   │   │   ├── 29.png
+│   │   │   ├── 2.png
+│   │   │   ├── 30.png
+│   │   │   ├── 31.png
+│   │   │   ├── 3200.png
+│   │   │   ├── 32.png
+│   │   │   ├── 33.png
+│   │   │   ├── 34.png
+│   │   │   ├── 35.png
+│   │   │   ├── 36.png
+│   │   │   ├── 37.png
+│   │   │   ├── 38.png
+│   │   │   ├── 39.png
+│   │   │   ├── 3.png
+│   │   │   ├── 40.png
+│   │   │   ├── 41.png
+│   │   │   ├── 42.png
+│   │   │   ├── 43.png
+│   │   │   ├── 44.png
+│   │   │   ├── 45.png
+│   │   │   ├── 46.png
+│   │   │   ├── 47.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   ├── 6.png
+│   │   │   ├── 7.png
+│   │   │   ├── 8.png
+│   │   │   ├── 9.png
+│   │   │   ├── c1.png
+│   │   │   └── wc1.png
+│   │   ├── conkystart.sh
+│   │   ├── fonts
+│   │   │   └── Roboto_Light.ttf
+│   │   ├── source.txt
+│   │   ├── time
+│   │   ├── time.png
+│   │   ├── weather_forecast
+│   │   └── weather_forecast.png
+│   ├── ScrollConkyWhiteB-v1
+│   │   ├── conky_icons
+│   │   │   ├── 0.png
+│   │   │   ├── 10.png
+│   │   │   ├── 11.png
+│   │   │   ├── 12.png
+│   │   │   ├── 13.png
+│   │   │   ├── 14.png
+│   │   │   ├── 15.png
+│   │   │   ├── 16.png
+│   │   │   ├── 17.png
+│   │   │   ├── 18.png
+│   │   │   ├── 19.png
+│   │   │   ├── 1.png
+│   │   │   ├── 20.png
+│   │   │   ├── 21.png
+│   │   │   ├── 22.png
+│   │   │   ├── 23.png
+│   │   │   ├── 24.png
+│   │   │   ├── 25.png
+│   │   │   ├── 26.png
+│   │   │   ├── 27.png
+│   │   │   ├── 28.png
+│   │   │   ├── 29.png
+│   │   │   ├── 2.png
+│   │   │   ├── 30.png
+│   │   │   ├── 31.png
+│   │   │   ├── 3200.png
+│   │   │   ├── 32.png
+│   │   │   ├── 33.png
+│   │   │   ├── 34.png
+│   │   │   ├── 35.png
+│   │   │   ├── 36.png
+│   │   │   ├── 37.png
+│   │   │   ├── 38.png
+│   │   │   ├── 39.png
+│   │   │   ├── 3.png
+│   │   │   ├── 40.png
+│   │   │   ├── 41.png
+│   │   │   ├── 42.png
+│   │   │   ├── 43.png
+│   │   │   ├── 44.png
+│   │   │   ├── 45.png
+│   │   │   ├── 46.png
+│   │   │   ├── 47.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   ├── 6.png
+│   │   │   ├── 7.png
+│   │   │   ├── 8.png
+│   │   │   ├── 9.png
+│   │   │   ├── c1.png
+│   │   │   └── wc1.png
+│   │   ├── conkystart.sh
+│   │   ├── fonts
+│   │   │   └── Roboto_Light.ttf
+│   │   ├── time
+│   │   ├── time.png
+│   │   ├── weather_forecast
+│   │   └── weather_forecast.png
+│   ├── Semplice_Conky
+│   │   ├── font
+│   │   │   └── TallFilms.ttf
+│   │   ├── Simple_Rc
+│   │   └── Simple_Rc.png
+│   ├── TechMon Reloaded
+│   │   └── 4 core
+│   │       ├── 01.png
+│   │       ├── 02.png
+│   │       ├── 03.png
+│   │       ├── 04.png
+│   │       ├── 05.png
+│   │       ├── 06.png
+│   │       ├── 07.png
+│   │       ├── blue
+│   │       ├── blue.png
+│   │       ├── fonts
+│   │       │   └── Future.ttf
+│   │       ├── gray
+│   │       ├── gray.png
+│   │       ├── green
+│   │       ├── green.png
+│   │       ├── pink
+│   │       ├── pink.png
+│   │       ├── purple
+│   │       ├── purple.png
+│   │       ├── red
+│   │       ├── red.png
+│   │       ├── rings.lua
+│   │       ├── source.txt
+│   │       ├── yellow
+│   │       └── yellow.png
+│   ├── TeejeeTech
+│   │   ├── CPU Panel (2-core)
+│   │   ├── CPU Panel (2-core).jpg
+│   │   ├── CPU Panel (4-core)
+│   │   ├── CPU Panel (4-core).jpg
+│   │   ├── CPU Panel (6-core)
+│   │   ├── CPU Panel (6-core).jpg
+│   │   ├── CPU Panel (8-core)
+│   │   ├── CPU Panel (8-core).jpg
+│   │   ├── Network Panel
+│   │   ├── Network Panel.png
+│   │   ├── NVIDIA Panel
+│   │   ├── NVIDIA Panel.jpg
+│   │   ├── nvidia.jpg
+│   │   ├── Process Panel
+│   │   ├── Process Panel.jpg
+│   │   ├── README
+│   │   └── source.txt
+│   ├── TERM
+│   │   └── HUD_Machine_Screen_Portrait_GREEN.jpg
+│   ├── TimeBadge
+│   │   ├── conky_icons
+│   │   │   └── circle.png
+│   │   ├── fonts
+│   │   │   ├── Roboto_Bold.ttf
+│   │   │   ├── Roboto_Light.ttf
+│   │   │   ├── Roboto_Medium.ttf
+│   │   │   └── Roboto_Regular.ttf
+│   │   └── source.txt
+│   ├── Torn Paper Clone
+│   │   ├── bg2.png
+│   │   ├── bg.png
+│   │   ├── Clock
+│   │   ├── Clock.png
+│   │   ├── fonts
+│   │   │   ├── Caviar_Dreams_Bold.ttf
+│   │   │   └── Caviar_Dreams.ttf
+│   │   ├── source.txt
+│   │   ├── SysInfo
+│   │   └── SysInfo.png
+│   ├── TransparentTiles2dayweather
+│   │   ├── conkyrc_disk
+│   │   ├── conkyrc_disk.png
+│   │   ├── conkyrc_time
+│   │   ├── conkyrc_time.png
+│   │   ├── conkyrc_weather
+│   │   ├── conkyrc_weather.png
+│   │   ├── conkystart.sh
+│   │   ├── conky_weather_icons
+│   │   │   ├── 0.png
+│   │   │   ├── 10.png
+│   │   │   ├── 11.png
+│   │   │   ├── 12.png
+│   │   │   ├── 13.png
+│   │   │   ├── 14.png
+│   │   │   ├── 15.png
+│   │   │   ├── 16.png
+│   │   │   ├── 17.png
+│   │   │   ├── 18.png
+│   │   │   ├── 19.png
+│   │   │   ├── 1.png
+│   │   │   ├── 20.png
+│   │   │   ├── 21.png
+│   │   │   ├── 22.png
+│   │   │   ├── 23.png
+│   │   │   ├── 24.png
+│   │   │   ├── 25.png
+│   │   │   ├── 26.png
+│   │   │   ├── 27.png
+│   │   │   ├── 28.png
+│   │   │   ├── 29.png
+│   │   │   ├── 2.png
+│   │   │   ├── 30.png
+│   │   │   ├── 31.png
+│   │   │   ├── 3200.png
+│   │   │   ├── 32.png
+│   │   │   ├── 33.png
+│   │   │   ├── 34.png
+│   │   │   ├── 35.png
+│   │   │   ├── 36.png
+│   │   │   ├── 37.png
+│   │   │   ├── 38.png
+│   │   │   ├── 39.png
+│   │   │   ├── 3.png
+│   │   │   ├── 40.png
+│   │   │   ├── 41.png
+│   │   │   ├── 42.png
+│   │   │   ├── 43.png
+│   │   │   ├── 44.png
+│   │   │   ├── 45.png
+│   │   │   ├── 46.png
+│   │   │   ├── 47.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   ├── 6.png
+│   │   │   ├── 7.png
+│   │   │   ├── 8.png
+│   │   │   ├── 9.png
+│   │   │   ├── humidity.png
+│   │   │   └── wind.png
+│   │   ├── fonts
+│   │   │   └── Open_Sans_Light.ttf
+│   │   ├── source.txt
+│   │   ├── TransparentTiles2dayweather.cmtheme
+│   │   └── TransparentTiles2dayweather.png
+│   ├── TransparentTilesv3
+│   │   ├── conky_icons
+│   │   │   ├── 0.png
+│   │   │   ├── 10.png
+│   │   │   ├── 11.png
+│   │   │   ├── 12.png
+│   │   │   ├── 13.png
+│   │   │   ├── 14.png
+│   │   │   ├── 15.png
+│   │   │   ├── 16.png
+│   │   │   ├── 17.png
+│   │   │   ├── 18.png
+│   │   │   ├── 19.png
+│   │   │   ├── 1.png
+│   │   │   ├── 20.png
+│   │   │   ├── 21.png
+│   │   │   ├── 22.png
+│   │   │   ├── 23.png
+│   │   │   ├── 24.png
+│   │   │   ├── 25.png
+│   │   │   ├── 26.png
+│   │   │   ├── 27.png
+│   │   │   ├── 28.png
+│   │   │   ├── 29.png
+│   │   │   ├── 2.png
+│   │   │   ├── 30.png
+│   │   │   ├── 31.png
+│   │   │   ├── 3200.png
+│   │   │   ├── 32.png
+│   │   │   ├── 33.png
+│   │   │   ├── 34.png
+│   │   │   ├── 35.png
+│   │   │   ├── 36.png
+│   │   │   ├── 37.png
+│   │   │   ├── 38.png
+│   │   │   ├── 39.png
+│   │   │   ├── 3.png
+│   │   │   ├── 40.png
+│   │   │   ├── 41.png
+│   │   │   ├── 42.png
+│   │   │   ├── 43.png
+│   │   │   ├── 44.png
+│   │   │   ├── 45.png
+│   │   │   ├── 46.png
+│   │   │   ├── 47.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   ├── 6.png
+│   │   │   ├── 7.png
+│   │   │   ├── 8.png
+│   │   │   ├── 9.png
+│   │   │   ├── humidity.png
+│   │   │   ├── web_upd8.png
+│   │   │   └── wind.png
+│   │   ├── conkystart.sh
+│   │   ├── fonts
+│   │   │   ├── Open_Sans_Light.ttf
+│   │   │   ├── Open_Sans_Semibold.ttf
+│   │   │   └── Open_Sans.ttf
+│   │   ├── news
+│   │   ├── news.png
+│   │   ├── news.py
+│   │   ├── source.txt
+│   │   ├── systemstat
+│   │   ├── systemstat.png
+│   │   ├── time
+│   │   ├── time.png
+│   │   ├── TransparentTilesv3.cmtheme
+│   │   ├── TransparentTilesv3.png
+│   │   ├── weather_forecast
+│   │   ├── weather_forecast.png
+│   │   ├── weather_now
+│   │   ├── weather_now.png
+│   │   ├── webupd8
+│   │   ├── webupd8.png
+│   │   └── webupd8.py
+│   ├── TronLegacy
+│   │   ├── source.txt
+│   │   ├── TronLegacy.cmtheme
+│   │   ├── TronLegacy.png
+│   │   └── wallpaper.jpg
+│   ├── TronLegacy-02
+│   │   ├── TronLegacy-02.cmtheme
+│   │   └── wallpaper.png
+│   └── verti-color
+│       ├── clock_stats_eth0
+│       ├── clock_stats_eth0.png
+│       ├── clock_stats_wifi
+│       ├── clock_stats_wifi.png
+│       ├── conkyrc
+│       ├── conkyrc.png
+│       ├── cpu_8core
+│       ├── cpu_8core.png
+│       ├── cpu_8core_with_clock
+│       ├── cpu_8core_with_clock.png
+│       ├── fonts
+│       │   └── Dinreg_Regular.ttf
+│       ├── lua
+│       │   ├── stev_bars2.lua
+│       │   ├── stev_bars2_wifi.lua
+│       │   ├── stev_bars_8core.lua
+│       │   ├── stev_bars_8core_with_clock.lua
+│       │   └── stev_bars.lua
+│       └── source.txt
 ├── Genel
 ├── İndirilenler
 │   ├── 137503-conky_orange.zip
@@ -34,12 +2686,16 @@
 │       │   ├── command_output.txt
 │       │   ├── nap list
 │       │   ├── output_0.txt
+│       │   ├── output_10.txt
+│       │   ├── output_11.txt
 │       │   ├── output_1.txt
 │       │   ├── output_2.txt
 │       │   ├── output_3.txt
 │       │   ├── output_4.txt
 │       │   ├── output_5.txt
 │       │   ├── output_6.txt
+│       │   ├── output_7.txt
+│       │   ├── output_9.txt
 │       │   ├── output.py
 │       │   ├── save.py
 │       │   ├── saveToGit
@@ -1401,4 +4057,4 @@
 ├── ubuntu.1
 └── Videolar
 
-188 directories, 1213 files
+343 directories, 3714 files
