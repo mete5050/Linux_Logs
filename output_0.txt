@@ -1,6 +1,7 @@
-toplam 16
--rw-rw-r-- 1 mete mete  986 Mar  9 03:12 command_output.txt
--rw-rw-r-- 1 mete mete 1085 Mar  9 03:12 output.py
--rw-rw-r-- 1 mete mete  989 Mar  9 15:27 save.py
--rw-rw-r-- 1 mete mete 1013 Mar  9 15:29 saveToGit
--rw-rw-r-- 1 mete mete    0 Mar  9 15:24 tree.txt
+command_output.txt
+nap list
+output.py
+save.py
+saveToGit
+saveToGit.py
+tree.txt
