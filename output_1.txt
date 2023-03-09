@@ -1,10 +1,11 @@
-Dosya sistemi  Boyut  Dolu   Boş Kullanım% Bağlanılan yer
-tmpfs           1,6G  2,8M  1,6G        1% /run
-/dev/nvme0n1p7  140G   25G  108G       19% /
-tmpfs           7,7G  796K  7,7G        1% /dev/shm
-tmpfs           5,0M  4,0K  5,0M        1% /run/lock
-/dev/nvme0n1p1  256M   36M  221M       14% /boot/efi
-tmpfs           1,6G  5,3M  1,6G        1% /run/user/1000
-/dev/nvme1n1p2  932G  578G  355G       62% /media/mete/SSD-2
-/dev/nvme0n1p3  312G  196G  116G       63% /media/mete/OS
-/dev/nvme0n1p5   22G   17G  6,0G       74% /media/mete/RESTORE
+.
+├── command_output.txt
+├── nap list
+├── output_0.txt
+├── output.py
+├── save.py
+├── saveToGit
+├── saveToGit.py
+└── tree.txt
+
+0 directories, 8 files
