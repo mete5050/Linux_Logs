@@ -2,29 +2,35 @@ import subprocess
 from github import Github
 
 # Authentication
-g = Github('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')
+g = Github('YOUR_GITHUB_TOKEN')
 
-# Get the repository where you want to save the files
-repo = g.get_repo('mete5050/Linux_Logs')
+# Get the repository where you want to save the file
+repo = g.get_repo('USERNAME/REPO_NAME')
 
 # Define the commands to run
 commands = ['ls -l', 'df -h', 'uname -a']
 
-# Run the commands and save their outputs to separate files
-for i, command in enumerate(commands):
+# Run the commands and capture their outputs
+outputs = []
+for command in commands:
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
-    filename = f'output_{i}.txt'
-    with open(filename, 'w') as file:
-        file.write(result.stdout)
+    outputs.append(result.stdout)
 
-    # Upload or update the file on GitHub
-    with open(filename, 'r') as file:
-        file_contents = file.read()
-    try:
-        file = repo.get_contents(filename)
-        repo.update_file(file.path, 'commit message', file_contents, file.sha)
-        print(f'File {filename} updated successfully!')
-    except:
-        repo.create_file(filename, 'commit message', file_contents)
-        print(f'File {filename} uploaded successfully!')
+# Save the outputs to a text file
+with open('output.txt', 'w') as file:
+    file.writelines(outputs)
 
+# Get the contents of the output file
+with open('output.txt', 'r') as file:
+    file_contents = file.read()
+
+# Check if the file already exists on GitHub
+try:
+    file = repo.get_contents('output.txt')
+    # Update the file on GitHub
+    repo.update_file(file.path, 'commit message', file_contents, file.sha)
+    print('File updated successfully!')
+except:
+    # Create a new file on GitHub
+    repo.create_file('output.txt', 'commit message', file_contents)
+    print('File uploaded successfully!')
