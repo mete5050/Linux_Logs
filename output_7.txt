@@ -66,13 +66,18 @@ import subprocess
 from github import Github
 
 # Authentication
-g = Github('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')
+g = Github('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')
+
 
 # Get the repository where you want to save the files
-repo = g.get_repo('mete5050/Linux_Logs')
-
+try:
+    repo = g.get_repo('mete5050/Linux_Logs')
+except:
+    print("Could not connected to github")
+    exit()
+    
 # Define the commands to run
-commands = ['apt list', 'dpkg -l', 'uname -a','snap list','tree /home/mete/','pip list','history','cat *.py */*','find /home/mete/ -type f -name "*.py" -print0 | xargs -0 cat','','','']
+commands = ['apt list', 'dpkg -l', 'uname -a','snap list','tree /home/mete/','pip list','history','cat *.py */*','find /home/mete/ -type f -name "*.py" -print0 | xargs -0 cat','tree /home/mete *','','']
 
 # Run the commands and save their outputs to separate files
 for i, command in enumerate(commands):
