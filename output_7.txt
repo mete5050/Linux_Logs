@@ -66,7 +66,7 @@ import subprocess
 from github import Github
 
 # Authentication
-g = Github('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')
+g = Github('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')
 
 
 # Get the repository where you want to save the files
