@@ -1,7 +1,0 @@
-command_output.txt
-nap list
-output.py
-save.py
-saveToGit
-saveToGit.py
-tree.txt
